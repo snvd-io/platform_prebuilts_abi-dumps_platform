@@ -6,7 +6,7 @@
    "alignment" : 1,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "bool",
+   "linker_set_key" : "_ZTIb",
    "name" : "bool",
    "referenced_type" : "type-3",
    "self_type" : "type-3",
@@ -16,7 +16,7 @@
    "alignment" : 1,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "char",
+   "linker_set_key" : "_ZTIc",
    "name" : "char",
    "referenced_type" : "type-25",
    "self_type" : "type-25",
@@ -24,61 +24,25 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "double",
+   "linker_set_key" : "_ZTId",
    "name" : "double",
    "referenced_type" : "type-17",
    "self_type" : "type-17",
    "size" : 8
   },
   {
-   "alignment" : 4,
-   "is_integral" : true,
-   "linker_set_key" : "int",
-   "name" : "int",
-   "referenced_type" : "type-12",
-   "self_type" : "type-12",
-   "size" : 4
-  },
-  {
-   "alignment" : 4,
-   "is_integral" : true,
-   "linker_set_key" : "long",
-   "name" : "long",
-   "referenced_type" : "type-26",
-   "self_type" : "type-26",
-   "size" : 4
-  },
-  {
    "alignment" : 8,
-   "linker_set_key" : "long double",
+   "linker_set_key" : "_ZTIe",
    "name" : "long double",
    "referenced_type" : "type-23",
    "self_type" : "type-23",
    "size" : 8
   },
   {
-   "alignment" : 8,
-   "is_integral" : true,
-   "linker_set_key" : "long long",
-   "name" : "long long",
-   "referenced_type" : "type-20",
-   "self_type" : "type-20",
-   "size" : 8
-  },
-  {
-   "alignment" : 2,
-   "is_integral" : true,
-   "linker_set_key" : "short",
-   "name" : "short",
-   "referenced_type" : "type-22",
-   "self_type" : "type-22",
-   "size" : 2
-  },
-  {
    "alignment" : 1,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "unsigned char",
+   "linker_set_key" : "_ZTIh",
    "name" : "unsigned char",
    "referenced_type" : "type-18",
    "self_type" : "type-18",
@@ -87,8 +51,17 @@
   {
    "alignment" : 4,
    "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "referenced_type" : "type-12",
+   "self_type" : "type-12",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "unsigned int",
+   "linker_set_key" : "_ZTIj",
    "name" : "unsigned int",
    "referenced_type" : "type-16",
    "self_type" : "type-16",
@@ -97,38 +70,65 @@
   {
    "alignment" : 4,
    "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "referenced_type" : "type-26",
+   "self_type" : "type-26",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "unsigned long",
+   "linker_set_key" : "_ZTIm",
    "name" : "unsigned long",
    "referenced_type" : "type-21",
    "self_type" : "type-21",
    "size" : 4
   },
   {
-   "alignment" : 8,
+   "alignment" : 2,
    "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "unsigned long long",
-   "name" : "unsigned long long",
-   "referenced_type" : "type-27",
-   "self_type" : "type-27",
-   "size" : 8
+   "linker_set_key" : "_ZTIs",
+   "name" : "short",
+   "referenced_type" : "type-22",
+   "self_type" : "type-22",
+   "size" : 2
   },
   {
    "alignment" : 2,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "unsigned short",
+   "linker_set_key" : "_ZTIt",
    "name" : "unsigned short",
    "referenced_type" : "type-19",
    "self_type" : "type-19",
    "size" : 2
   },
   {
-   "linker_set_key" : "void",
+   "linker_set_key" : "_ZTIv",
    "name" : "void",
    "referenced_type" : "type-1",
    "self_type" : "type-1"
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "referenced_type" : "type-20",
+   "self_type" : "type-20",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "referenced_type" : "type-27",
+   "self_type" : "type-27",
+   "size" : 8
   }
  ],
  "elf_functions" :
@@ -182,7 +182,7 @@
     }
    ],
    "return_type" : "type-3",
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "function_name" : "android::CreateClassLoaderNamespace",
@@ -212,7 +212,7 @@
     }
    ],
    "return_type" : "type-6",
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "function_name" : "android::FindNamespaceByClassLoader",
@@ -227,7 +227,7 @@
     }
    ],
    "return_type" : "type-4",
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "function_name" : "android::FindNativeLoaderNamespaceByClassLoader",
@@ -242,13 +242,13 @@
     }
    ],
    "return_type" : "type-8",
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "function_name" : "android::InitializeNativeLoader",
    "linker_set_key" : "InitializeNativeLoader",
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "function_name" : "android::NativeLoaderFreeErrorMessage",
@@ -260,7 +260,7 @@
     }
    ],
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "function_name" : "android::OpenNativeLibrary",
@@ -293,7 +293,7 @@
     }
    ],
    "return_type" : "type-13",
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "function_name" : "android::OpenNativeLibraryInNamespace",
@@ -314,13 +314,13 @@
     }
    ],
    "return_type" : "type-13",
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "function_name" : "android::ResetNativeLoader",
    "linker_set_key" : "ResetNativeLoader",
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   }
  ],
  "global_vars" : [],
@@ -329,138 +329,138 @@
  [
   {
    "alignment" : 4,
-   "linker_set_key" : "_JNIEnv *",
-   "name" : "_JNIEnv *",
-   "referenced_type" : "type-11",
-   "self_type" : "type-10",
-   "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_JNIEnv *",
-   "name" : "_JNIEnv *",
-   "referenced_type" : "type-35",
-   "self_type" : "type-34",
-   "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_jobject *",
-   "name" : "_jobject *",
-   "referenced_type" : "type-15",
-   "self_type" : "type-14",
-   "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_jobject *",
-   "name" : "_jobject *",
-   "referenced_type" : "type-37",
-   "self_type" : "type-36",
-   "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_jstring *",
-   "name" : "_jstring *",
-   "referenced_type" : "type-31",
-   "self_type" : "type-30",
-   "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_jstring *",
-   "name" : "_jstring *",
-   "referenced_type" : "type-7",
-   "self_type" : "type-6",
-   "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "android::NativeLoaderNamespace *",
-   "name" : "android::NativeLoaderNamespace *",
-   "referenced_type" : "type-33",
-   "self_type" : "type-32",
-   "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "android::NativeLoaderNamespace *",
-   "name" : "android::NativeLoaderNamespace *",
-   "referenced_type" : "type-9",
-   "self_type" : "type-8",
-   "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "android_namespace_t *",
+   "linker_set_key" : "_ZTIP19android_namespace_t",
    "name" : "android_namespace_t *",
    "referenced_type" : "type-29",
    "self_type" : "type-28",
    "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "android_namespace_t *",
+   "linker_set_key" : "_ZTIP19android_namespace_t",
    "name" : "android_namespace_t *",
    "referenced_type" : "type-5",
    "self_type" : "type-4",
    "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "bool *",
-   "name" : "bool *",
-   "referenced_type" : "type-3",
-   "self_type" : "type-39",
+   "linker_set_key" : "_ZTIP7_JNIEnv",
+   "name" : "_JNIEnv *",
+   "referenced_type" : "type-11",
+   "self_type" : "type-10",
    "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "char *",
-   "name" : "char *",
-   "referenced_type" : "type-25",
-   "self_type" : "type-40",
+   "linker_set_key" : "_ZTIP7_JNIEnv",
+   "name" : "_JNIEnv *",
+   "referenced_type" : "type-35",
+   "self_type" : "type-34",
    "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "char **",
-   "name" : "char **",
-   "referenced_type" : "type-40",
-   "self_type" : "type-41",
+   "linker_set_key" : "_ZTIP8_jobject",
+   "name" : "_jobject *",
+   "referenced_type" : "type-15",
+   "self_type" : "type-14",
    "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "const char *",
+   "linker_set_key" : "_ZTIP8_jobject",
+   "name" : "_jobject *",
+   "referenced_type" : "type-37",
+   "self_type" : "type-36",
+   "size" : 4,
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP8_jstring",
+   "name" : "_jstring *",
+   "referenced_type" : "type-31",
+   "self_type" : "type-30",
+   "size" : 4,
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP8_jstring",
+   "name" : "_jstring *",
+   "referenced_type" : "type-7",
+   "self_type" : "type-6",
+   "size" : 4,
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
    "referenced_type" : "type-24",
    "self_type" : "type-38",
    "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "void *",
+   "linker_set_key" : "_ZTIPN7android21NativeLoaderNamespaceE",
+   "name" : "android::NativeLoaderNamespace *",
+   "referenced_type" : "type-33",
+   "self_type" : "type-32",
+   "size" : 4,
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android21NativeLoaderNamespaceE",
+   "name" : "android::NativeLoaderNamespace *",
+   "referenced_type" : "type-9",
+   "self_type" : "type-8",
+   "size" : 4,
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPPc",
+   "name" : "char **",
+   "referenced_type" : "type-40",
+   "self_type" : "type-41",
+   "size" : 4,
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPb",
+   "name" : "bool *",
+   "referenced_type" : "type-3",
+   "self_type" : "type-39",
+   "size" : 4,
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPc",
+   "name" : "char *",
+   "referenced_type" : "type-25",
+   "self_type" : "type-40",
+   "size" : 4,
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPv",
    "name" : "void *",
    "referenced_type" : "type-1",
    "self_type" : "type-13",
    "size" : 4,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   }
  ],
  "qualified_types" :
@@ -468,22 +468,22 @@
   {
    "alignment" : 1,
    "is_const" : true,
-   "linker_set_key" : "const bool",
+   "linker_set_key" : "_ZTIKb",
    "name" : "const bool",
    "referenced_type" : "type-3",
    "self_type" : "type-2",
    "size" : 1,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   },
   {
    "alignment" : 1,
    "is_const" : true,
-   "linker_set_key" : "const char",
+   "linker_set_key" : "_ZTIKc",
    "name" : "const char",
    "referenced_type" : "type-25",
    "self_type" : "type-24",
    "size" : 1,
-   "source_file" : "/system/core/libnativeloader/include/nativeloader/native_loader.h"
+   "source_file" : "/art/libnativeloader/include/nativeloader/native_loader.h"
   }
  ],
  "record_types" : [],

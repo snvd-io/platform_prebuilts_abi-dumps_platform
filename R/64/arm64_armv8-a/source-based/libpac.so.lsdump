@@ -6,7 +6,7 @@
    "alignment" : 2,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "char16_t",
+   "linker_set_key" : "_ZTIDs",
    "name" : "char16_t",
    "referenced_type" : "type-5",
    "self_type" : "type-5",
@@ -15,14 +15,14 @@
   {
    "alignment" : 4,
    "is_integral" : true,
-   "linker_set_key" : "int",
+   "linker_set_key" : "_ZTIi",
    "name" : "int",
    "referenced_type" : "type-8",
    "self_type" : "type-8",
    "size" : 4
   },
   {
-   "linker_set_key" : "void",
+   "linker_set_key" : "_ZTIv",
    "name" : "void",
    "referenced_type" : "type-3",
    "self_type" : "type-3"
@@ -106,7 +106,7 @@
  [
   {
    "alignment" : 8,
-   "linker_set_key" : "char16_t *",
+   "linker_set_key" : "_ZTIPDs",
    "name" : "char16_t *",
    "referenced_type" : "type-5",
    "self_type" : "type-4",
@@ -115,7 +115,7 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "const char16_t *",
+   "linker_set_key" : "_ZTIPKDs",
    "name" : "const char16_t *",
    "referenced_type" : "type-6",
    "self_type" : "type-7",
@@ -124,19 +124,19 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "void *",
-   "name" : "void *",
-   "referenced_type" : "type-3",
-   "self_type" : "type-2",
+   "linker_set_key" : "_ZTIPPv",
+   "name" : "void **",
+   "referenced_type" : "type-2",
+   "self_type" : "type-1",
    "size" : 8,
    "source_file" : "/external/chromium-libpac/includes/proxy_resolver_v8_wrapper.h"
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "void **",
-   "name" : "void **",
-   "referenced_type" : "type-2",
-   "self_type" : "type-1",
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "type-3",
+   "self_type" : "type-2",
    "size" : 8,
    "source_file" : "/external/chromium-libpac/includes/proxy_resolver_v8_wrapper.h"
   }
@@ -146,7 +146,7 @@
   {
    "alignment" : 2,
    "is_const" : true,
-   "linker_set_key" : "const char16_t",
+   "linker_set_key" : "_ZTIKDs",
    "name" : "const char16_t",
    "referenced_type" : "type-5",
    "self_type" : "type-6",

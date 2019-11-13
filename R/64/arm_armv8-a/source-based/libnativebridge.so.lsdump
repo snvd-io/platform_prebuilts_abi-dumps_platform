@@ -6,7 +6,7 @@
    "alignment" : 1,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "bool",
+   "linker_set_key" : "_ZTIb",
    "name" : "bool",
    "referenced_type" : "type-1",
    "self_type" : "type-1",
@@ -16,7 +16,7 @@
    "alignment" : 1,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "char",
+   "linker_set_key" : "_ZTIc",
    "name" : "char",
    "referenced_type" : "type-5",
    "self_type" : "type-5",
@@ -24,61 +24,25 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "double",
+   "linker_set_key" : "_ZTId",
    "name" : "double",
    "referenced_type" : "type-65",
    "self_type" : "type-65",
    "size" : 8
   },
   {
-   "alignment" : 4,
-   "is_integral" : true,
-   "linker_set_key" : "int",
-   "name" : "int",
-   "referenced_type" : "type-33",
-   "self_type" : "type-33",
-   "size" : 4
-  },
-  {
-   "alignment" : 4,
-   "is_integral" : true,
-   "linker_set_key" : "long",
-   "name" : "long",
-   "referenced_type" : "type-72",
-   "self_type" : "type-72",
-   "size" : 4
-  },
-  {
    "alignment" : 8,
-   "linker_set_key" : "long double",
+   "linker_set_key" : "_ZTIe",
    "name" : "long double",
    "referenced_type" : "type-71",
    "self_type" : "type-71",
    "size" : 8
   },
   {
-   "alignment" : 8,
-   "is_integral" : true,
-   "linker_set_key" : "long long",
-   "name" : "long long",
-   "referenced_type" : "type-68",
-   "self_type" : "type-68",
-   "size" : 8
-  },
-  {
-   "alignment" : 2,
-   "is_integral" : true,
-   "linker_set_key" : "short",
-   "name" : "short",
-   "referenced_type" : "type-70",
-   "self_type" : "type-70",
-   "size" : 2
-  },
-  {
    "alignment" : 1,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "unsigned char",
+   "linker_set_key" : "_ZTIh",
    "name" : "unsigned char",
    "referenced_type" : "type-66",
    "self_type" : "type-66",
@@ -87,8 +51,17 @@
   {
    "alignment" : 4,
    "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "referenced_type" : "type-33",
+   "self_type" : "type-33",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "unsigned int",
+   "linker_set_key" : "_ZTIj",
    "name" : "unsigned int",
    "referenced_type" : "type-8",
    "self_type" : "type-8",
@@ -97,38 +70,65 @@
   {
    "alignment" : 4,
    "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "referenced_type" : "type-72",
+   "self_type" : "type-72",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "unsigned long",
+   "linker_set_key" : "_ZTIm",
    "name" : "unsigned long",
    "referenced_type" : "type-69",
    "self_type" : "type-69",
    "size" : 4
   },
   {
-   "alignment" : 8,
+   "alignment" : 2,
    "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "unsigned long long",
-   "name" : "unsigned long long",
-   "referenced_type" : "type-6",
-   "self_type" : "type-6",
-   "size" : 8
+   "linker_set_key" : "_ZTIs",
+   "name" : "short",
+   "referenced_type" : "type-70",
+   "self_type" : "type-70",
+   "size" : 2
   },
   {
    "alignment" : 2,
    "is_integral" : true,
    "is_unsigned" : true,
-   "linker_set_key" : "unsigned short",
+   "linker_set_key" : "_ZTIt",
    "name" : "unsigned short",
    "referenced_type" : "type-67",
    "self_type" : "type-67",
    "size" : 2
   },
   {
-   "linker_set_key" : "void",
+   "linker_set_key" : "_ZTIv",
    "name" : "void",
    "referenced_type" : "type-32",
    "self_type" : "type-32"
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "referenced_type" : "type-68",
+   "self_type" : "type-68",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "referenced_type" : "type-6",
+   "self_type" : "type-6",
+   "size" : 8
   }
  ],
  "elf_functions" :
@@ -206,16 +206,64 @@
  [
   {
    "alignment" : 4,
-   "linker_set_key" : "android::native_bridge_namespace_t *()",
-   "name" : "android::native_bridge_namespace_t *()",
-   "referenced_type" : "type-62",
-   "return_type" : "type-2",
-   "self_type" : "type-62",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "linker_set_key" : "_ZTIFPFbiP7siginfoPvEiE",
+   "name" : "bool (*(int))(int, siginfo *, void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-33"
+    }
+   ],
+   "referenced_type" : "type-44",
+   "return_type" : "type-45",
+   "self_type" : "type-44",
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "android::native_bridge_namespace_t *(const char *)",
+   "linker_set_key" : "_ZTIFPKN7android25NativeBridgeRuntimeValuesEPKcE",
+   "name" : "const android::NativeBridgeRuntimeValues *(const char *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-16"
+    }
+   ],
+   "referenced_type" : "type-39",
+   "return_type" : "type-40",
+   "self_type" : "type-39",
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFPKcP7_JNIEnvP10_jmethodIDE",
+   "name" : "const char *(_JNIEnv *, _jmethodID *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-17"
+    },
+    {
+     "referenced_type" : "type-19"
+    }
+   ],
+   "referenced_type" : "type-15",
+   "return_type" : "type-16",
+   "self_type" : "type-15",
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFPKcvE",
+   "name" : "const char *()",
+   "referenced_type" : "type-52",
+   "return_type" : "type-16",
+   "self_type" : "type-52",
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFPN7android25native_bridge_namespace_tEPKcE",
    "name" : "android::native_bridge_namespace_t *(const char *)",
    "parameters" :
    [
@@ -226,11 +274,11 @@
    "referenced_type" : "type-64",
    "return_type" : "type-2",
    "self_type" : "type-64",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "android::native_bridge_namespace_t *(const char *, const char *, const char *, unsigned long long, const char *, android::native_bridge_namespace_t *)",
+   "linker_set_key" : "_ZTIFPN7android25native_bridge_namespace_tEPKcS3_S3_yS3_S1_E",
    "name" : "android::native_bridge_namespace_t *(const char *, const char *, const char *, unsigned long long, const char *, android::native_bridge_namespace_t *)",
    "parameters" :
    [
@@ -256,236 +304,20 @@
    "referenced_type" : "type-56",
    "return_type" : "type-2",
    "self_type" : "type-56",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "bool (*(int))(int, siginfo *, void *)",
-   "name" : "bool (*(int))(int, siginfo *, void *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-33"
-    }
-   ],
-   "referenced_type" : "type-44",
-   "return_type" : "type-45",
-   "self_type" : "type-44",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "linker_set_key" : "_ZTIFPN7android25native_bridge_namespace_tEvE",
+   "name" : "android::native_bridge_namespace_t *()",
+   "referenced_type" : "type-62",
+   "return_type" : "type-2",
+   "self_type" : "type-62",
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "bool (android::native_bridge_namespace_t *, android::native_bridge_namespace_t *, const char *)",
-   "name" : "bool (android::native_bridge_namespace_t *, android::native_bridge_namespace_t *, const char *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-2"
-    },
-    {
-     "referenced_type" : "type-2"
-    },
-    {
-     "referenced_type" : "type-16"
-    }
-   ],
-   "referenced_type" : "type-58",
-   "return_type" : "type-1",
-   "self_type" : "type-58",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "bool (const android::NativeBridgeRuntimeCallbacks *, const char *, const char *)",
-   "name" : "bool (const android::NativeBridgeRuntimeCallbacks *, const char *, const char *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-11"
-    },
-    {
-     "referenced_type" : "type-16"
-    },
-    {
-     "referenced_type" : "type-16"
-    }
-   ],
-   "referenced_type" : "type-10",
-   "return_type" : "type-1",
-   "self_type" : "type-10",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "bool (const char *)",
-   "name" : "bool (const char *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-16"
-    }
-   ],
-   "referenced_type" : "type-37",
-   "return_type" : "type-1",
-   "self_type" : "type-37",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "bool (const char *, const char *)",
-   "name" : "bool (const char *, const char *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-16"
-    },
-    {
-     "referenced_type" : "type-16"
-    }
-   ],
-   "referenced_type" : "type-54",
-   "return_type" : "type-1",
-   "self_type" : "type-54",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "bool (int, siginfo *, void *)",
-   "name" : "bool (int, siginfo *, void *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-33"
-    },
-    {
-     "referenced_type" : "type-47"
-    },
-    {
-     "referenced_type" : "type-31"
-    }
-   ],
-   "referenced_type" : "type-46",
-   "return_type" : "type-1",
-   "self_type" : "type-46",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "bool (unsigned int)",
-   "name" : "bool (unsigned int)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-8"
-    }
-   ],
-   "referenced_type" : "type-42",
-   "return_type" : "type-1",
-   "self_type" : "type-42",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const android::NativeBridgeRuntimeValues *(const char *)",
-   "name" : "const android::NativeBridgeRuntimeValues *(const char *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-16"
-    }
-   ],
-   "referenced_type" : "type-39",
-   "return_type" : "type-40",
-   "self_type" : "type-39",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const char *()",
-   "name" : "const char *()",
-   "referenced_type" : "type-52",
-   "return_type" : "type-16",
-   "self_type" : "type-52",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const char *(_JNIEnv *, _jmethodID *)",
-   "name" : "const char *(_JNIEnv *, _jmethodID *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-17"
-    },
-    {
-     "referenced_type" : "type-19"
-    }
-   ],
-   "referenced_type" : "type-15",
-   "return_type" : "type-16",
-   "self_type" : "type-15",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "int (void *)",
-   "name" : "int (void *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-31"
-    }
-   ],
-   "referenced_type" : "type-50",
-   "return_type" : "type-33",
-   "self_type" : "type-50",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "unsigned int (_JNIEnv *, _jclass *)",
-   "name" : "unsigned int (_JNIEnv *, _jclass *)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-17"
-    },
-    {
-     "referenced_type" : "type-23"
-    }
-   ],
-   "referenced_type" : "type-22",
-   "return_type" : "type-8",
-   "self_type" : "type-22",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "unsigned int (_JNIEnv *, _jclass *, JNINativeMethod *, unsigned int)",
-   "name" : "unsigned int (_JNIEnv *, _jclass *, JNINativeMethod *, unsigned int)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-17"
-    },
-    {
-     "referenced_type" : "type-23"
-    },
-    {
-     "referenced_type" : "type-27"
-    },
-    {
-     "referenced_type" : "type-8"
-    }
-   ],
-   "referenced_type" : "type-26",
-   "return_type" : "type-8",
-   "self_type" : "type-26",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "void *(const char *, int)",
+   "linker_set_key" : "_ZTIFPvPKciE",
    "name" : "void *(const char *, int)",
    "parameters" :
    [
@@ -499,11 +331,11 @@
    "referenced_type" : "type-30",
    "return_type" : "type-31",
    "self_type" : "type-30",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "void *(const char *, int, android::native_bridge_namespace_t *)",
+   "linker_set_key" : "_ZTIFPvPKciPN7android25native_bridge_namespace_tEE",
    "name" : "void *(const char *, int, android::native_bridge_namespace_t *)",
    "parameters" :
    [
@@ -520,11 +352,11 @@
    "referenced_type" : "type-60",
    "return_type" : "type-31",
    "self_type" : "type-60",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "void *(void *, const char *, const char *, unsigned int)",
+   "linker_set_key" : "_ZTIFPvS_PKcS1_jE",
    "name" : "void *(void *, const char *, const char *, unsigned int)",
    "parameters" :
    [
@@ -544,7 +376,175 @@
    "referenced_type" : "type-35",
    "return_type" : "type-31",
    "self_type" : "type-35",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFbPKN7android28NativeBridgeRuntimeCallbacksEPKcS4_E",
+   "name" : "bool (const android::NativeBridgeRuntimeCallbacks *, const char *, const char *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-11"
+    },
+    {
+     "referenced_type" : "type-16"
+    },
+    {
+     "referenced_type" : "type-16"
+    }
+   ],
+   "referenced_type" : "type-10",
+   "return_type" : "type-1",
+   "self_type" : "type-10",
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFbPKcE",
+   "name" : "bool (const char *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-16"
+    }
+   ],
+   "referenced_type" : "type-37",
+   "return_type" : "type-1",
+   "self_type" : "type-37",
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFbPKcS0_E",
+   "name" : "bool (const char *, const char *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-16"
+    },
+    {
+     "referenced_type" : "type-16"
+    }
+   ],
+   "referenced_type" : "type-54",
+   "return_type" : "type-1",
+   "self_type" : "type-54",
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFbPN7android25native_bridge_namespace_tES1_PKcE",
+   "name" : "bool (android::native_bridge_namespace_t *, android::native_bridge_namespace_t *, const char *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-2"
+    },
+    {
+     "referenced_type" : "type-2"
+    },
+    {
+     "referenced_type" : "type-16"
+    }
+   ],
+   "referenced_type" : "type-58",
+   "return_type" : "type-1",
+   "self_type" : "type-58",
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFbiP7siginfoPvE",
+   "name" : "bool (int, siginfo *, void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-33"
+    },
+    {
+     "referenced_type" : "type-47"
+    },
+    {
+     "referenced_type" : "type-31"
+    }
+   ],
+   "referenced_type" : "type-46",
+   "return_type" : "type-1",
+   "self_type" : "type-46",
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFbjE",
+   "name" : "bool (unsigned int)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-8"
+    }
+   ],
+   "referenced_type" : "type-42",
+   "return_type" : "type-1",
+   "self_type" : "type-42",
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFiPvE",
+   "name" : "int (void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-31"
+    }
+   ],
+   "referenced_type" : "type-50",
+   "return_type" : "type-33",
+   "self_type" : "type-50",
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFjP7_JNIEnvP7_jclassE",
+   "name" : "unsigned int (_JNIEnv *, _jclass *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-17"
+    },
+    {
+     "referenced_type" : "type-23"
+    }
+   ],
+   "referenced_type" : "type-22",
+   "return_type" : "type-8",
+   "self_type" : "type-22",
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFjP7_JNIEnvP7_jclassP15JNINativeMethodjE",
+   "name" : "unsigned int (_JNIEnv *, _jclass *, JNINativeMethod *, unsigned int)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-17"
+    },
+    {
+     "referenced_type" : "type-23"
+    },
+    {
+     "referenced_type" : "type-27"
+    },
+    {
+     "referenced_type" : "type-8"
+    }
+   ],
+   "referenced_type" : "type-26",
+   "return_type" : "type-8",
+   "self_type" : "type-26",
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   }
  ],
  "functions" :
@@ -562,7 +562,7 @@
     }
    ],
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::LoadNativeBridge",
@@ -577,13 +577,13 @@
     }
    ],
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeAvailable",
    "linker_set_key" : "NativeBridgeAvailable",
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeCreateNamespace",
@@ -610,19 +610,19 @@
     }
    ],
    "return_type" : "type-2",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeError",
    "linker_set_key" : "NativeBridgeError",
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeGetError",
    "linker_set_key" : "NativeBridgeGetError",
    "return_type" : "type-16",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeGetExportedNamespace",
@@ -634,7 +634,7 @@
     }
    ],
    "return_type" : "type-2",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeGetSignalHandler",
@@ -646,7 +646,7 @@
     }
    ],
    "return_type" : "type-45",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeGetTrampoline",
@@ -667,13 +667,13 @@
     }
    ],
    "return_type" : "type-31",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeGetVersion",
    "linker_set_key" : "NativeBridgeGetVersion",
    "return_type" : "type-8",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeInitAnonymousNamespace",
@@ -688,13 +688,13 @@
     }
    ],
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeInitialized",
    "linker_set_key" : "NativeBridgeInitialized",
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeIsPathSupported",
@@ -706,7 +706,7 @@
     }
    ],
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeIsSupported",
@@ -718,7 +718,7 @@
     }
    ],
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeLinkNamespaces",
@@ -736,7 +736,7 @@
     }
    ],
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeLoadLibrary",
@@ -751,7 +751,7 @@
     }
    ],
    "return_type" : "type-31",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeLoadLibraryExt",
@@ -769,7 +769,7 @@
     }
    ],
    "return_type" : "type-31",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeNameAcceptable",
@@ -781,7 +781,7 @@
     }
    ],
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NativeBridgeUnloadLibrary",
@@ -793,7 +793,7 @@
     }
    ],
    "return_type" : "type-33",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::NeedsNativeBridge",
@@ -805,7 +805,7 @@
     }
    ],
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::PreInitializeNativeBridge",
@@ -820,13 +820,13 @@
     }
    ],
    "return_type" : "type-1",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "function_name" : "android::UnloadNativeBridge",
    "linker_set_key" : "UnloadNativeBridge",
    "return_type" : "type-32",
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   }
  ],
  "global_vars" : [],
@@ -835,255 +835,255 @@
  [
   {
    "alignment" : 4,
-   "linker_set_key" : "JNINativeMethod *",
-   "name" : "JNINativeMethod *",
-   "referenced_type" : "type-28",
-   "self_type" : "type-27",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_JNIEnv *",
-   "name" : "_JNIEnv *",
-   "referenced_type" : "type-18",
-   "self_type" : "type-17",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_jclass *",
-   "name" : "_jclass *",
-   "referenced_type" : "type-24",
-   "self_type" : "type-23",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_jmethodID *",
+   "linker_set_key" : "_ZTIP10_jmethodID",
    "name" : "_jmethodID *",
    "referenced_type" : "type-20",
    "self_type" : "type-19",
    "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "android::native_bridge_namespace_t *",
-   "name" : "android::native_bridge_namespace_t *",
-   "referenced_type" : "type-3",
-   "self_type" : "type-2",
+   "linker_set_key" : "_ZTIP15JNINativeMethod",
+   "name" : "JNINativeMethod *",
+   "referenced_type" : "type-28",
+   "self_type" : "type-27",
    "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "android::native_bridge_namespace_t *(*)()",
-   "name" : "android::native_bridge_namespace_t *(*)()",
-   "referenced_type" : "type-62",
-   "self_type" : "type-61",
+   "linker_set_key" : "_ZTIP7_JNIEnv",
+   "name" : "_JNIEnv *",
+   "referenced_type" : "type-18",
+   "self_type" : "type-17",
    "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "android::native_bridge_namespace_t *(*)(const char *)",
-   "name" : "android::native_bridge_namespace_t *(*)(const char *)",
-   "referenced_type" : "type-64",
-   "self_type" : "type-63",
+   "linker_set_key" : "_ZTIP7_jclass",
+   "name" : "_jclass *",
+   "referenced_type" : "type-24",
+   "self_type" : "type-23",
    "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "android::native_bridge_namespace_t *(*)(const char *, const char *, const char *, unsigned long long, const char *, android::native_bridge_namespace_t *)",
-   "name" : "android::native_bridge_namespace_t *(*)(const char *, const char *, const char *, unsigned long long, const char *, android::native_bridge_namespace_t *)",
-   "referenced_type" : "type-56",
-   "self_type" : "type-55",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "bool (*(*)(int))(int, siginfo *, void *)",
-   "name" : "bool (*(*)(int))(int, siginfo *, void *)",
-   "referenced_type" : "type-44",
-   "self_type" : "type-43",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "bool (*)(android::native_bridge_namespace_t *, android::native_bridge_namespace_t *, const char *)",
-   "name" : "bool (*)(android::native_bridge_namespace_t *, android::native_bridge_namespace_t *, const char *)",
-   "referenced_type" : "type-58",
-   "self_type" : "type-57",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "bool (*)(const android::NativeBridgeRuntimeCallbacks *, const char *, const char *)",
-   "name" : "bool (*)(const android::NativeBridgeRuntimeCallbacks *, const char *, const char *)",
-   "referenced_type" : "type-10",
-   "self_type" : "type-9",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "bool (*)(const char *)",
-   "name" : "bool (*)(const char *)",
-   "referenced_type" : "type-37",
-   "self_type" : "type-36",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "bool (*)(const char *, const char *)",
-   "name" : "bool (*)(const char *, const char *)",
-   "referenced_type" : "type-54",
-   "self_type" : "type-53",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "bool (*)(int, siginfo *, void *)",
-   "name" : "bool (*)(int, siginfo *, void *)",
-   "referenced_type" : "type-46",
-   "self_type" : "type-45",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "bool (*)(unsigned int)",
-   "name" : "bool (*)(unsigned int)",
-   "referenced_type" : "type-42",
-   "self_type" : "type-41",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const android::NativeBridgeRuntimeCallbacks *",
-   "name" : "const android::NativeBridgeRuntimeCallbacks *",
-   "referenced_type" : "type-12",
-   "self_type" : "type-11",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const android::NativeBridgeRuntimeValues *(*)(const char *)",
-   "name" : "const android::NativeBridgeRuntimeValues *(*)(const char *)",
-   "referenced_type" : "type-39",
-   "self_type" : "type-38",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const char *",
-   "name" : "const char *",
-   "referenced_type" : "type-4",
-   "self_type" : "type-16",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const char *(*)()",
-   "name" : "const char *(*)()",
-   "referenced_type" : "type-52",
-   "self_type" : "type-51",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const char *(*)(_JNIEnv *, _jmethodID *)",
-   "name" : "const char *(*)(_JNIEnv *, _jmethodID *)",
-   "referenced_type" : "type-15",
-   "self_type" : "type-14",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "int (*)(void *)",
-   "name" : "int (*)(void *)",
-   "referenced_type" : "type-50",
-   "self_type" : "type-49",
-   "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "siginfo *",
+   "linker_set_key" : "_ZTIP7siginfo",
    "name" : "siginfo *",
    "referenced_type" : "type-48",
    "self_type" : "type-47",
    "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "unsigned int (*)(_JNIEnv *, _jclass *)",
-   "name" : "unsigned int (*)(_JNIEnv *, _jclass *)",
-   "referenced_type" : "type-22",
-   "self_type" : "type-21",
+   "linker_set_key" : "_ZTIPFPFbiP7siginfoPvEiE",
+   "name" : "bool (*(*)(int))(int, siginfo *, void *)",
+   "referenced_type" : "type-44",
+   "self_type" : "type-43",
    "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "unsigned int (*)(_JNIEnv *, _jclass *, JNINativeMethod *, unsigned int)",
-   "name" : "unsigned int (*)(_JNIEnv *, _jclass *, JNINativeMethod *, unsigned int)",
-   "referenced_type" : "type-26",
-   "self_type" : "type-25",
+   "linker_set_key" : "_ZTIPFPKN7android25NativeBridgeRuntimeValuesEPKcE",
+   "name" : "const android::NativeBridgeRuntimeValues *(*)(const char *)",
+   "referenced_type" : "type-39",
+   "self_type" : "type-38",
    "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "void *",
-   "name" : "void *",
-   "referenced_type" : "type-32",
-   "self_type" : "type-31",
+   "linker_set_key" : "_ZTIPFPKcP7_JNIEnvP10_jmethodIDE",
+   "name" : "const char *(*)(_JNIEnv *, _jmethodID *)",
+   "referenced_type" : "type-15",
+   "self_type" : "type-14",
    "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "void *(*)(const char *, int)",
+   "linker_set_key" : "_ZTIPFPKcvE",
+   "name" : "const char *(*)()",
+   "referenced_type" : "type-52",
+   "self_type" : "type-51",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFPN7android25native_bridge_namespace_tEPKcE",
+   "name" : "android::native_bridge_namespace_t *(*)(const char *)",
+   "referenced_type" : "type-64",
+   "self_type" : "type-63",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFPN7android25native_bridge_namespace_tEPKcS3_S3_yS3_S1_E",
+   "name" : "android::native_bridge_namespace_t *(*)(const char *, const char *, const char *, unsigned long long, const char *, android::native_bridge_namespace_t *)",
+   "referenced_type" : "type-56",
+   "self_type" : "type-55",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFPN7android25native_bridge_namespace_tEvE",
+   "name" : "android::native_bridge_namespace_t *(*)()",
+   "referenced_type" : "type-62",
+   "self_type" : "type-61",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFPvPKciE",
    "name" : "void *(*)(const char *, int)",
    "referenced_type" : "type-30",
    "self_type" : "type-29",
    "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "void *(*)(const char *, int, android::native_bridge_namespace_t *)",
+   "linker_set_key" : "_ZTIPFPvPKciPN7android25native_bridge_namespace_tEE",
    "name" : "void *(*)(const char *, int, android::native_bridge_namespace_t *)",
    "referenced_type" : "type-60",
    "self_type" : "type-59",
    "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "void *(*)(void *, const char *, const char *, unsigned int)",
+   "linker_set_key" : "_ZTIPFPvS_PKcS1_jE",
    "name" : "void *(*)(void *, const char *, const char *, unsigned int)",
    "referenced_type" : "type-35",
    "self_type" : "type-34",
    "size" : 4,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFbPKN7android28NativeBridgeRuntimeCallbacksEPKcS4_E",
+   "name" : "bool (*)(const android::NativeBridgeRuntimeCallbacks *, const char *, const char *)",
+   "referenced_type" : "type-10",
+   "self_type" : "type-9",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFbPKcE",
+   "name" : "bool (*)(const char *)",
+   "referenced_type" : "type-37",
+   "self_type" : "type-36",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFbPKcS0_E",
+   "name" : "bool (*)(const char *, const char *)",
+   "referenced_type" : "type-54",
+   "self_type" : "type-53",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFbPN7android25native_bridge_namespace_tES1_PKcE",
+   "name" : "bool (*)(android::native_bridge_namespace_t *, android::native_bridge_namespace_t *, const char *)",
+   "referenced_type" : "type-58",
+   "self_type" : "type-57",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFbiP7siginfoPvE",
+   "name" : "bool (*)(int, siginfo *, void *)",
+   "referenced_type" : "type-46",
+   "self_type" : "type-45",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFbjE",
+   "name" : "bool (*)(unsigned int)",
+   "referenced_type" : "type-42",
+   "self_type" : "type-41",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFiPvE",
+   "name" : "int (*)(void *)",
+   "referenced_type" : "type-50",
+   "self_type" : "type-49",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFjP7_JNIEnvP7_jclassE",
+   "name" : "unsigned int (*)(_JNIEnv *, _jclass *)",
+   "referenced_type" : "type-22",
+   "self_type" : "type-21",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFjP7_JNIEnvP7_jclassP15JNINativeMethodjE",
+   "name" : "unsigned int (*)(_JNIEnv *, _jclass *, JNINativeMethod *, unsigned int)",
+   "referenced_type" : "type-26",
+   "self_type" : "type-25",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android28NativeBridgeRuntimeCallbacksE",
+   "name" : "const android::NativeBridgeRuntimeCallbacks *",
+   "referenced_type" : "type-12",
+   "self_type" : "type-11",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "type-4",
+   "self_type" : "type-16",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android25native_bridge_namespace_tE",
+   "name" : "android::native_bridge_namespace_t *",
+   "referenced_type" : "type-3",
+   "self_type" : "type-2",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "type-32",
+   "self_type" : "type-31",
+   "size" : 4,
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   }
  ],
  "qualified_types" :
@@ -1091,22 +1091,22 @@
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "const android::NativeBridgeRuntimeCallbacks",
+   "linker_set_key" : "_ZTIKN7android28NativeBridgeRuntimeCallbacksE",
    "name" : "const android::NativeBridgeRuntimeCallbacks",
    "referenced_type" : "type-13",
    "self_type" : "type-12",
    "size" : 12,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 1,
    "is_const" : true,
-   "linker_set_key" : "const char",
+   "linker_set_key" : "_ZTIKc",
    "name" : "const char",
    "referenced_type" : "type-5",
    "self_type" : "type-4",
    "size" : 1,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   }
  ],
  "record_types" :
@@ -1200,13 +1200,12 @@
      "referenced_type" : "type-63"
     }
    ],
-   "linker_set_key" : "android::NativeBridgeCallbacks",
+   "linker_set_key" : "_ZTIN7android21NativeBridgeCallbacksE",
    "name" : "android::NativeBridgeCallbacks",
    "referenced_type" : "type-7",
    "self_type" : "type-7",
    "size" : 68,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h",
-   "unique_id" : "android::NativeBridgeCallbacks"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
    "alignment" : 4,
@@ -1227,13 +1226,12 @@
      "referenced_type" : "type-25"
     }
    ],
-   "linker_set_key" : "android::NativeBridgeRuntimeCallbacks",
+   "linker_set_key" : "_ZTIN7android28NativeBridgeRuntimeCallbacksE",
    "name" : "android::NativeBridgeRuntimeCallbacks",
    "referenced_type" : "type-13",
    "self_type" : "type-13",
    "size" : 12,
-   "source_file" : "/system/core/libnativebridge/include/nativebridge/native_bridge.h",
-   "unique_id" : "android::NativeBridgeRuntimeCallbacks"
+   "source_file" : "/art/libnativebridge/include/nativebridge/native_bridge.h"
   }
  ],
  "rvalue_reference_types" : []
