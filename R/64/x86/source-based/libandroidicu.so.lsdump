@@ -5,8 +5,8 @@
   {
    "linker_set_key" : "_ZTIv",
    "name" : "void",
-   "referenced_type" : "type-1",
-   "self_type" : "type-1"
+   "referenced_type" : "_ZTIv",
+   "self_type" : "_ZTIv"
   }
  ],
  "elf_functions" :
@@ -114,6 +114,9 @@
    "name" : "u_getBidiPairedBracket_android"
   },
   {
+   "name" : "u_getBinaryPropertySet_android"
+  },
+  {
    "name" : "u_getCombiningClass_android"
   },
   {
@@ -124,6 +127,9 @@
   },
   {
    "name" : "u_getFC_NFKC_Closure_android"
+  },
+  {
+   "name" : "u_getIntPropertyMap_android"
   },
   {
    "name" : "u_getIntPropertyMaxValue_android"
@@ -1212,6 +1218,33 @@
    "name" : "ucol_tertiaryOrder_android"
   },
   {
+   "name" : "ucpmap_getRange_android"
+  },
+  {
+   "name" : "ucpmap_get_android"
+  },
+  {
+   "name" : "ucptrie_close_android"
+  },
+  {
+   "name" : "ucptrie_getRange_android"
+  },
+  {
+   "name" : "ucptrie_getType_android"
+  },
+  {
+   "name" : "ucptrie_getValueWidth_android"
+  },
+  {
+   "name" : "ucptrie_get_android"
+  },
+  {
+   "name" : "ucptrie_openFromBinary_android"
+  },
+  {
+   "name" : "ucptrie_toBinary_android"
+  },
+  {
    "name" : "ucsdet_close_android"
   },
   {
@@ -1867,6 +1900,36 @@
   },
   {
    "name" : "umsg_vparse_android"
+  },
+  {
+   "name" : "umutablecptrie_buildImmutable_android"
+  },
+  {
+   "name" : "umutablecptrie_clone_android"
+  },
+  {
+   "name" : "umutablecptrie_close_android"
+  },
+  {
+   "name" : "umutablecptrie_fromUCPMap_android"
+  },
+  {
+   "name" : "umutablecptrie_fromUCPTrie_android"
+  },
+  {
+   "name" : "umutablecptrie_getRange_android"
+  },
+  {
+   "name" : "umutablecptrie_get_android"
+  },
+  {
+   "name" : "umutablecptrie_open_android"
+  },
+  {
+   "name" : "umutablecptrie_setRange_android"
+  },
+  {
+   "name" : "umutablecptrie_set_android"
   },
   {
    "name" : "unorm2_append_android"
@@ -2960,7 +3023,7 @@
   {
    "function_name" : "AIcu_initializeIcuOrDie",
    "linker_set_key" : "AIcu_initializeIcuOrDie",
-   "return_type" : "type-1",
+   "return_type" : "_ZTIv",
    "source_file" : "/external/icu/libandroidicu/include/aicu/AIcu.h"
   }
  ],
