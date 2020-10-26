@@ -278,7 +278,7 @@
    "referenced_type" : "_ZTIh",
    "self_type" : "_ZTIA5121_h",
    "size" : 5121,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 4,
@@ -418,7 +418,7 @@
    "name" : "char []",
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIA_c",
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   }
  ],
  "builtin_types" :
@@ -664,7 +664,7 @@
    "referenced_type" : "_ZTI19AndroidEventLogType",
    "self_type" : "_ZTI19AndroidEventLogType",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log.h",
+   "source_file" : "/system/logging/liblog/include/log/log.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -713,7 +713,7 @@
    "referenced_type" : "_ZTI19android_LogPriority",
    "self_type" : "_ZTI19android_LogPriority",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/android/log.h",
+   "source_file" : "/system/logging/liblog/include/android/log.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -921,7 +921,7 @@
    "referenced_type" : "_ZTI6log_id",
    "self_type" : "_ZTI6log_id",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/android/log.h",
+   "source_file" : "/system/logging/liblog/include/android/log.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -1913,7 +1913,7 @@
    "referenced_type" : "_ZTIK7log_msg",
    "self_type" : "_ZTIRK7log_msg",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 4,
@@ -1922,7 +1922,7 @@
    "referenced_type" : "_ZTIK8log_time",
    "self_type" : "_ZTIRK8log_time",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 4,
@@ -1931,7 +1931,7 @@
    "referenced_type" : "_ZTIK8timespec",
    "self_type" : "_ZTIRK8timespec",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 4,
@@ -2794,7 +2794,7 @@
    "referenced_type" : "_ZTI7log_msg",
    "self_type" : "_ZTIP7log_msg",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 4,
@@ -2812,7 +2812,7 @@
    "referenced_type" : "_ZTI8log_time",
    "self_type" : "_ZTIP8log_time",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 4,
@@ -2974,7 +2974,7 @@
    "referenced_type" : "_ZTIK7log_msg",
    "self_type" : "_ZTIPK7log_msg",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 4,
@@ -2983,7 +2983,7 @@
    "referenced_type" : "_ZTIK8log_time",
    "self_type" : "_ZTIPK8log_time",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 4,
@@ -4390,7 +4390,7 @@
    "name" : "char const[]",
    "referenced_type" : "_ZTIA_c",
    "self_type" : "_ZTIA_Kc",
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 4,
@@ -4410,7 +4410,7 @@
    "referenced_type" : "_ZTI7log_msg",
    "self_type" : "_ZTIK7log_msg",
    "size" : 5124,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 1,
@@ -4420,7 +4420,7 @@
    "referenced_type" : "_ZTI8log_time",
    "self_type" : "_ZTIK8log_time",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 4,
@@ -4430,7 +4430,7 @@
    "referenced_type" : "_ZTI8timespec",
    "self_type" : "_ZTIK8timespec",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 4,
@@ -5606,7 +5606,7 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIKj",
    "size" : 4,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 4,
@@ -6384,7 +6384,7 @@
    "referenced_type" : "_ZTI12logger_entry",
    "self_type" : "_ZTI12logger_entry",
    "size" : 28,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 4,
@@ -7325,7 +7325,7 @@
    "referenced_type" : "_ZTI21__android_log_message",
    "self_type" : "_ZTI21__android_log_message",
    "size" : 28,
-   "source_file" : "/system/core/liblog/include/android/log.h"
+   "source_file" : "/system/logging/liblog/include/android/log.h"
   },
   {
    "alignment" : 4,
@@ -7976,7 +7976,7 @@
    "referenced_type" : "_ZTI7log_msg",
    "self_type" : "_ZTI7log_msg",
    "size" : 5124,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 4,
@@ -8033,7 +8033,7 @@
    "referenced_type" : "_ZTI8log_time",
    "self_type" : "_ZTI8log_time",
    "size" : 8,
-   "source_file" : "/system/core/liblog/include/log/log_time.h"
+   "source_file" : "/system/logging/liblog/include/log/log_time.h"
   },
   {
    "alignment" : 4,
@@ -8680,12 +8680,12 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7log_msgUt_E",
-   "name" : "log_msg::(anonymous union at system/core/liblog/include/log/log_read.h:77:3)",
+   "name" : "log_msg::(anonymous union at system/logging/liblog/include/log/log_read.h:77:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7log_msgUt_E",
    "self_type" : "_ZTIN7log_msgUt_E",
    "size" : 5124,
-   "source_file" : "/system/core/liblog/include/log/log_read.h"
+   "source_file" : "/system/logging/liblog/include/log/log_read.h"
   },
   {
    "alignment" : 4,
