@@ -66,7 +66,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/frameworks/ml/nn/runtime/packageinfo/include/PackageInfo.h"
+   "source_file" : "packages/modules/NeuralNetworks/runtime/packageinfo/include/PackageInfo.h"
   },
   {
    "function_name" : "ANeuralNetworks_free_PackageInfo",
@@ -78,7 +78,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/frameworks/ml/nn/runtime/packageinfo/include/PackageInfo.h"
+   "source_file" : "packages/modules/NeuralNetworks/runtime/packageinfo/include/PackageInfo.h"
   }
  ],
  "global_vars" : [],
@@ -92,7 +92,7 @@
    "referenced_type" : "_ZTI27ANeuralNetworks_PackageInfo",
    "self_type" : "_ZTIP27ANeuralNetworks_PackageInfo",
    "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/packageinfo/include/PackageInfo.h"
+   "source_file" : "packages/modules/NeuralNetworks/runtime/packageinfo/include/PackageInfo.h"
   },
   {
    "alignment" : 8,
@@ -101,7 +101,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIPc",
    "size" : 8,
-   "source_file" : "/frameworks/ml/nn/runtime/packageinfo/include/PackageInfo.h"
+   "source_file" : "packages/modules/NeuralNetworks/runtime/packageinfo/include/PackageInfo.h"
   }
  ],
  "qualified_types" : [],
@@ -136,7 +136,7 @@
    "referenced_type" : "_ZTI27ANeuralNetworks_PackageInfo",
    "self_type" : "_ZTI27ANeuralNetworks_PackageInfo",
    "size" : 16,
-   "source_file" : "/frameworks/ml/nn/runtime/packageinfo/include/PackageInfo.h"
+   "source_file" : "packages/modules/NeuralNetworks/runtime/packageinfo/include/PackageInfo.h"
   }
  ],
  "rvalue_reference_types" : []
