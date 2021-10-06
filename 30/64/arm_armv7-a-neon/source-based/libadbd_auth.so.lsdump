@@ -210,6 +210,10 @@
    "name" : "adbd_auth_prompt_user"
   },
   {
+   "binding" : "weak",
+   "name" : "adbd_auth_prompt_user_with_id"
+  },
+  {
    "name" : "adbd_auth_run"
   },
   {
@@ -419,6 +423,27 @@
     }
    ],
    "return_type" : "_ZTIv",
+   "source_file" : "/frameworks/native/libs/adbd_auth/include/adbd_auth.h"
+  },
+  {
+   "function_name" : "adbd_auth_prompt_user_with_id",
+   "linker_set_key" : "adbd_auth_prompt_user_with_id",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AdbdAuthContext"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIy",
    "source_file" : "/frameworks/native/libs/adbd_auth/include/adbd_auth.h"
   },
   {
