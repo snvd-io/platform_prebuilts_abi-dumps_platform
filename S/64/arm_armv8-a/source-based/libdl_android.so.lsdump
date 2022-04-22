@@ -8,7 +8,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA10_i",
    "size" : 40,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 1,
@@ -17,7 +17,7 @@
    "referenced_type" : "_ZTIh",
    "self_type" : "_ZTIA16_h",
    "size" : 16,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 4,
@@ -26,7 +26,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA1_i",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -35,7 +35,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA2_i",
    "size" : 8,
-   "source_file" : "/bionic/libc/kernel/uapi/asm-generic/posix_types.h"
+   "source_file" : "bionic/libc/kernel/uapi/asm-generic/posix_types.h"
   },
   {
    "alignment" : 4,
@@ -44,7 +44,7 @@
    "referenced_type" : "_ZTIm",
    "self_type" : "_ZTIA32_m",
    "size" : 128,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/posix_types.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/posix_types.h"
   },
   {
    "alignment" : 4,
@@ -53,7 +53,7 @@
    "referenced_type" : "_ZTIi",
    "self_type" : "_ZTIA8_i",
    "size" : 32,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   }
  ],
  "builtin_types" :
@@ -213,6 +213,35 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 0,
+     "name" : "M_HEAP_TAGGING_LEVEL_NONE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "M_HEAP_TAGGING_LEVEL_TBI"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "M_HEAP_TAGGING_LEVEL_ASYNC"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "M_HEAP_TAGGING_LEVEL_SYNC"
+    }
+   ],
+   "linker_set_key" : "_ZTI16HeapTaggingLevel",
+   "name" : "HeapTaggingLevel",
+   "referenced_type" : "_ZTI16HeapTaggingLevel",
+   "self_type" : "_ZTI16HeapTaggingLevel",
+   "size" : 4,
+   "source_file" : "bionic/libc/include/malloc.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : 1,
      "name" : "ANDROID_DLEXT_RESERVED_ADDRESS"
     },
@@ -258,7 +287,7 @@
    "referenced_type" : "_ZTI25$ANDROID_DLEXT_FORCE_LOAD",
    "self_type" : "_ZTI25$ANDROID_DLEXT_FORCE_LOAD",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/android/dlext.h",
+   "source_file" : "bionic/libc/include/android/dlext.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -283,7 +312,7 @@
    "referenced_type" : "_ZTIN7r_debug7$RT_ADDE",
    "self_type" : "_ZTIN7r_debug7$RT_ADDE",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h",
+   "source_file" : "bionic/libc/include/link.h",
    "underlying_type" : "_ZTIj"
   }
  ],
@@ -308,7 +337,7 @@
    "referenced_type" : "_ZTIFPvS_jPKvE",
    "return_type" : "_ZTIPv",
    "self_type" : "_ZTIFPvS_jPKvE",
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -326,7 +355,7 @@
    "referenced_type" : "_ZTIFPvjPKvE",
    "return_type" : "_ZTIPv",
    "self_type" : "_ZTIFPvjPKvE",
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -347,7 +376,7 @@
    "referenced_type" : "_ZTIFPvjjPKvE",
    "return_type" : "_ZTIPv",
    "self_type" : "_ZTIFPvjjPKvE",
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -365,7 +394,7 @@
    "referenced_type" : "_ZTIFvPvPKcE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvPvPKcE",
-   "source_file" : "/bionic/libdl/libdl_android.cpp"
+   "source_file" : "bionic/libdl/libdl_android.cpp"
   },
   {
    "alignment" : 4,
@@ -383,7 +412,7 @@
    "referenced_type" : "_ZTIFvPvPKvE",
    "return_type" : "_ZTIv",
    "self_type" : "_ZTIFvPvPKvE",
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   }
  ],
  "functions" :
@@ -413,7 +442,7 @@
     }
    ],
    "return_type" : "_ZTIP19android_namespace_t",
-   "source_file" : "/bionic/libdl/libdl_android.cpp"
+   "source_file" : "bionic/libdl/libdl_android.cpp"
   },
   {
    "function_name" : "android_dlwarning",
@@ -428,7 +457,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/bionic/libdl/libdl_android.cpp"
+   "source_file" : "bionic/libdl/libdl_android.cpp"
   },
   {
    "function_name" : "android_get_LD_LIBRARY_PATH",
@@ -443,7 +472,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/bionic/libdl/libdl_android.cpp"
+   "source_file" : "bionic/libdl/libdl_android.cpp"
   },
   {
    "function_name" : "android_get_exported_namespace",
@@ -455,7 +484,7 @@
     }
    ],
    "return_type" : "_ZTIP19android_namespace_t",
-   "source_file" : "/bionic/libdl/libdl_android.cpp"
+   "source_file" : "bionic/libdl/libdl_android.cpp"
   },
   {
    "function_name" : "android_init_anonymous_namespace",
@@ -470,7 +499,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/bionic/libdl/libdl_android.cpp"
+   "source_file" : "bionic/libdl/libdl_android.cpp"
   },
   {
    "function_name" : "android_link_namespaces",
@@ -488,7 +517,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "/bionic/libdl/libdl_android.cpp"
+   "source_file" : "bionic/libdl/libdl_android.cpp"
   },
   {
    "function_name" : "android_set_application_target_sdk_version",
@@ -500,7 +529,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/bionic/libdl/libdl_android.cpp"
+   "source_file" : "bionic/libdl/libdl_android.cpp"
   },
   {
    "function_name" : "android_update_LD_LIBRARY_PATH",
@@ -512,7 +541,7 @@
     }
    ],
    "return_type" : "_ZTIv",
-   "source_file" : "/bionic/libdl/libdl_android.cpp"
+   "source_file" : "bionic/libdl/libdl_android.cpp"
   }
  ],
  "global_vars" : [],
@@ -526,7 +555,7 @@
    "referenced_type" : "_ZTI19android_namespace_t",
    "self_type" : "_ZTIP19android_namespace_t",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/android/dlext.h"
+   "source_file" : "bionic/libc/include/android/dlext.h"
   },
   {
    "alignment" : 4,
@@ -535,7 +564,7 @@
    "referenced_type" : "_ZTI7__sFILE",
    "self_type" : "_ZTIP7__sFILE",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/stdio.h"
+   "source_file" : "bionic/libc/include/stdio.h"
   },
   {
    "alignment" : 4,
@@ -544,7 +573,7 @@
    "referenced_type" : "_ZTI7dynamic",
    "self_type" : "_ZTIP7dynamic",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
+   "source_file" : "bionic/libc/include/link.h"
   },
   {
    "alignment" : 4,
@@ -553,7 +582,7 @@
    "referenced_type" : "_ZTI8link_map",
    "self_type" : "_ZTIP8link_map",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
+   "source_file" : "bionic/libc/include/link.h"
   },
   {
    "alignment" : 4,
@@ -562,7 +591,7 @@
    "referenced_type" : "_ZTIFPvS_jPKvE",
    "self_type" : "_ZTIPFPvS_jPKvE",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -571,7 +600,7 @@
    "referenced_type" : "_ZTIFPvjPKvE",
    "self_type" : "_ZTIPFPvjPKvE",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -580,7 +609,7 @@
    "referenced_type" : "_ZTIFPvjjPKvE",
    "self_type" : "_ZTIPFPvjjPKvE",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -589,7 +618,7 @@
    "referenced_type" : "_ZTIFvPvPKcE",
    "self_type" : "_ZTIPFvPvPKcE",
    "size" : 4,
-   "source_file" : "/bionic/libdl/libdl_android.cpp"
+   "source_file" : "bionic/libdl/libdl_android.cpp"
   },
   {
    "alignment" : 4,
@@ -598,7 +627,7 @@
    "referenced_type" : "_ZTIFvPvPKvE",
    "self_type" : "_ZTIPFvPvPKvE",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -607,7 +636,7 @@
    "referenced_type" : "_ZTIK10elf32_phdr",
    "self_type" : "_ZTIPK10elf32_phdr",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
+   "source_file" : "bionic/libc/include/link.h"
   },
   {
    "alignment" : 4,
@@ -616,7 +645,7 @@
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIPKc",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/dlfcn.h"
+   "source_file" : "bionic/libc/include/dlfcn.h"
   },
   {
    "alignment" : 4,
@@ -625,7 +654,7 @@
    "referenced_type" : "_ZTIKv",
    "self_type" : "_ZTIPKv",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -634,7 +663,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIPc",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/link.h"
+   "source_file" : "bionic/libc/include/link.h"
   },
   {
    "alignment" : 4,
@@ -643,7 +672,7 @@
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIPv",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/dlfcn.h"
+   "source_file" : "bionic/libc/include/dlfcn.h"
   }
  ],
  "qualified_types" :
@@ -656,7 +685,7 @@
    "referenced_type" : "_ZTI10elf32_phdr",
    "self_type" : "_ZTIK10elf32_phdr",
    "size" : 32,
-   "source_file" : "/bionic/libc/include/link.h"
+   "source_file" : "bionic/libc/include/link.h"
   },
   {
    "alignment" : 1,
@@ -666,7 +695,7 @@
    "referenced_type" : "_ZTIc",
    "self_type" : "_ZTIKc",
    "size" : 1,
-   "source_file" : "/bionic/libc/include/dlfcn.h"
+   "source_file" : "bionic/libc/include/dlfcn.h"
   },
   {
    "is_const" : true,
@@ -674,7 +703,7 @@
    "name" : "const void",
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIKv",
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -684,7 +713,7 @@
    "referenced_type" : "_ZTIPFPvS_jPKvE",
    "self_type" : "_ZTIVPFPvS_jPKvE",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -694,7 +723,7 @@
    "referenced_type" : "_ZTIPFPvjPKvE",
    "self_type" : "_ZTIVPFPvjPKvE",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -704,7 +733,7 @@
    "referenced_type" : "_ZTIPFPvjjPKvE",
    "self_type" : "_ZTIVPFPvjjPKvE",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -714,7 +743,7 @@
    "referenced_type" : "_ZTIPFvPvPKvE",
    "self_type" : "_ZTIVPFvPvPKvE",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   }
  ],
  "record_types" :
@@ -743,7 +772,7 @@
    "referenced_type" : "_ZTI10Elf32_Chdr",
    "self_type" : "_ZTI10Elf32_Chdr",
    "size" : 12,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 8,
@@ -779,7 +808,7 @@
    "referenced_type" : "_ZTI10Elf32_Move",
    "self_type" : "_ZTI10Elf32_Move",
    "size" : 24,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 8,
@@ -810,7 +839,7 @@
    "referenced_type" : "_ZTI10Elf64_Chdr",
    "self_type" : "_ZTI10Elf64_Chdr",
    "size" : 24,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 8,
@@ -846,7 +875,7 @@
    "referenced_type" : "_ZTI10Elf64_Move",
    "self_type" : "_ZTI10Elf64_Move",
    "size" : 32,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 4,
@@ -872,7 +901,7 @@
    "referenced_type" : "_ZTI10elf32_note",
    "self_type" : "_ZTI10elf32_note",
    "size" : 12,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 4,
@@ -923,7 +952,7 @@
    "referenced_type" : "_ZTI10elf32_phdr",
    "self_type" : "_ZTI10elf32_phdr",
    "size" : 32,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 4,
@@ -949,7 +978,7 @@
    "referenced_type" : "_ZTI10elf32_rela",
    "self_type" : "_ZTI10elf32_rela",
    "size" : 12,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 4,
@@ -1010,7 +1039,7 @@
    "referenced_type" : "_ZTI10elf32_shdr",
    "self_type" : "_ZTI10elf32_shdr",
    "size" : 40,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 4,
@@ -1036,7 +1065,7 @@
    "referenced_type" : "_ZTI10elf64_note",
    "self_type" : "_ZTI10elf64_note",
    "size" : 12,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 8,
@@ -1087,7 +1116,7 @@
    "referenced_type" : "_ZTI10elf64_phdr",
    "self_type" : "_ZTI10elf64_phdr",
    "size" : 56,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 8,
@@ -1113,7 +1142,7 @@
    "referenced_type" : "_ZTI10elf64_rela",
    "self_type" : "_ZTI10elf64_rela",
    "size" : 24,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 8,
@@ -1174,7 +1203,7 @@
    "referenced_type" : "_ZTI10elf64_shdr",
    "self_type" : "_ZTI10elf64_shdr",
    "size" : 64,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 8,
@@ -1195,7 +1224,7 @@
    "referenced_type" : "_ZTI11max_align_t",
    "self_type" : "_ZTI11max_align_t",
    "size" : 16,
-   "source_file" : "/prebuilts/clang-tools/linux-x86/lib64/clang/11.0.1/include/__stddef_max_align_t.h"
+   "source_file" : "prebuilts/clang-tools/linux-x86/clang-headers/__stddef_max_align_t.h"
   },
   {
    "alignment" : 4,
@@ -1241,7 +1270,7 @@
    "referenced_type" : "_ZTI12Elf32_Verdef",
    "self_type" : "_ZTI12Elf32_Verdef",
    "size" : 20,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 4,
@@ -1262,7 +1291,7 @@
    "referenced_type" : "_ZTI12Elf32_auxv_t",
    "self_type" : "_ZTI12Elf32_auxv_t",
    "size" : 8,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 4,
@@ -1308,7 +1337,7 @@
    "referenced_type" : "_ZTI12Elf64_Verdef",
    "self_type" : "_ZTI12Elf64_Verdef",
    "size" : 20,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 8,
@@ -1329,7 +1358,7 @@
    "referenced_type" : "_ZTI12Elf64_auxv_t",
    "self_type" : "_ZTI12Elf64_auxv_t",
    "size" : 16,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 8,
@@ -1380,7 +1409,7 @@
    "referenced_type" : "_ZTI12dl_phdr_info",
    "self_type" : "_ZTI12dl_phdr_info",
    "size" : 40,
-   "source_file" : "/bionic/libc/include/link.h"
+   "source_file" : "bionic/libc/include/link.h"
   },
   {
    "alignment" : 2,
@@ -1401,7 +1430,7 @@
    "referenced_type" : "_ZTI13Elf32_Syminfo",
    "self_type" : "_ZTI13Elf32_Syminfo",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 4,
@@ -1422,7 +1451,7 @@
    "referenced_type" : "_ZTI13Elf32_Verdaux",
    "self_type" : "_ZTI13Elf32_Verdaux",
    "size" : 8,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 4,
@@ -1458,7 +1487,7 @@
    "referenced_type" : "_ZTI13Elf32_Vernaux",
    "self_type" : "_ZTI13Elf32_Vernaux",
    "size" : 16,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 4,
@@ -1494,7 +1523,7 @@
    "referenced_type" : "_ZTI13Elf32_Verneed",
    "self_type" : "_ZTI13Elf32_Verneed",
    "size" : 16,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 2,
@@ -1515,7 +1544,7 @@
    "referenced_type" : "_ZTI13Elf64_Syminfo",
    "self_type" : "_ZTI13Elf64_Syminfo",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 4,
@@ -1536,7 +1565,7 @@
    "referenced_type" : "_ZTI13Elf64_Verdaux",
    "self_type" : "_ZTI13Elf64_Verdaux",
    "size" : 8,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 4,
@@ -1572,7 +1601,7 @@
    "referenced_type" : "_ZTI13Elf64_Vernaux",
    "self_type" : "_ZTI13Elf64_Vernaux",
    "size" : 16,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 4,
@@ -1608,7 +1637,7 @@
    "referenced_type" : "_ZTI13Elf64_Verneed",
    "self_type" : "_ZTI13Elf64_Verneed",
    "size" : 16,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 4,
@@ -1649,7 +1678,7 @@
    "referenced_type" : "_ZTI14pthread_attr_t",
    "self_type" : "_ZTI14pthread_attr_t",
    "size" : 24,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -1665,7 +1694,7 @@
    "referenced_type" : "_ZTI14pthread_cond_t",
    "self_type" : "_ZTI14pthread_cond_t",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -1681,7 +1710,7 @@
    "referenced_type" : "_ZTI15__kernel_fd_set",
    "self_type" : "_ZTI15__kernel_fd_set",
    "size" : 128,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/posix_types.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/posix_types.h"
   },
   {
    "alignment" : 4,
@@ -1697,7 +1726,7 @@
    "referenced_type" : "_ZTI15__kernel_fsid_t",
    "self_type" : "_ZTI15__kernel_fsid_t",
    "size" : 8,
-   "source_file" : "/bionic/libc/kernel/uapi/asm-generic/posix_types.h"
+   "source_file" : "bionic/libc/kernel/uapi/asm-generic/posix_types.h"
   },
   {
    "alignment" : 4,
@@ -1713,7 +1742,7 @@
    "referenced_type" : "_ZTI15pthread_mutex_t",
    "self_type" : "_ZTI15pthread_mutex_t",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -1729,7 +1758,7 @@
    "referenced_type" : "_ZTI16pthread_rwlock_t",
    "self_type" : "_ZTI16pthread_rwlock_t",
    "size" : 40,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 8,
@@ -1775,7 +1804,7 @@
    "referenced_type" : "_ZTI17android_dlextinfo",
    "self_type" : "_ZTI17android_dlextinfo",
    "size" : 40,
-   "source_file" : "/bionic/libc/include/android/dlext.h"
+   "source_file" : "bionic/libc/include/android/dlext.h"
   },
   {
    "alignment" : 4,
@@ -1791,7 +1820,7 @@
    "referenced_type" : "_ZTI17pthread_barrier_t",
    "self_type" : "_ZTI17pthread_barrier_t",
    "size" : 32,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -1807,7 +1836,7 @@
    "referenced_type" : "_ZTI18pthread_spinlock_t",
    "self_type" : "_ZTI18pthread_spinlock_t",
    "size" : 8,
-   "source_file" : "/bionic/libc/include/bits/pthread_types.h"
+   "source_file" : "bionic/libc/include/bits/pthread_types.h"
   },
   {
    "alignment" : 4,
@@ -1828,7 +1857,7 @@
    "referenced_type" : "_ZTI5div_t",
    "self_type" : "_ZTI5div_t",
    "size" : 8,
-   "source_file" : "/bionic/libc/include/stdlib.h"
+   "source_file" : "bionic/libc/include/stdlib.h"
   },
   {
    "alignment" : 4,
@@ -1849,7 +1878,7 @@
    "referenced_type" : "_ZTI6ldiv_t",
    "self_type" : "_ZTI6ldiv_t",
    "size" : 8,
-   "source_file" : "/bionic/libc/include/stdlib.h"
+   "source_file" : "bionic/libc/include/stdlib.h"
   },
   {
    "alignment" : 4,
@@ -1880,7 +1909,7 @@
    "referenced_type" : "_ZTI7Dl_info",
    "self_type" : "_ZTI7Dl_info",
    "size" : 16,
-   "source_file" : "/bionic/libc/include/dlfcn.h"
+   "source_file" : "bionic/libc/include/dlfcn.h"
   },
   {
    "alignment" : 4,
@@ -1901,7 +1930,7 @@
    "referenced_type" : "_ZTI7dynamic",
    "self_type" : "_ZTI7dynamic",
    "size" : 8,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 8,
@@ -1922,7 +1951,7 @@
    "referenced_type" : "_ZTI7lldiv_t",
    "self_type" : "_ZTI7lldiv_t",
    "size" : 16,
-   "source_file" : "/bionic/libc/include/stdlib.h"
+   "source_file" : "bionic/libc/include/stdlib.h"
   },
   {
    "alignment" : 4,
@@ -1958,7 +1987,7 @@
    "referenced_type" : "_ZTI7r_debug",
    "self_type" : "_ZTI7r_debug",
    "size" : 20,
-   "source_file" : "/bionic/libc/include/link.h"
+   "source_file" : "bionic/libc/include/link.h"
   },
   {
    "alignment" : 4,
@@ -1994,7 +2023,7 @@
    "referenced_type" : "_ZTI8link_map",
    "self_type" : "_ZTI8link_map",
    "size" : 20,
-   "source_file" : "/bionic/libc/include/link.h"
+   "source_file" : "bionic/libc/include/link.h"
   },
   {
    "alignment" : 4,
@@ -2055,7 +2084,7 @@
    "referenced_type" : "_ZTI8mallinfo",
    "self_type" : "_ZTI8mallinfo",
    "size" : 40,
-   "source_file" : "/bionic/libc/include/malloc.h"
+   "source_file" : "bionic/libc/include/malloc.h"
   },
   {
    "alignment" : 4,
@@ -2091,7 +2120,7 @@
    "referenced_type" : "_ZTI9Elf32_Lib",
    "self_type" : "_ZTI9Elf32_Lib",
    "size" : 20,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 8,
@@ -2112,7 +2141,7 @@
    "referenced_type" : "_ZTI9Elf64_Dyn",
    "self_type" : "_ZTI9Elf64_Dyn",
    "size" : 16,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 4,
@@ -2148,7 +2177,7 @@
    "referenced_type" : "_ZTI9Elf64_Lib",
    "self_type" : "_ZTI9Elf64_Lib",
    "size" : 20,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 4,
@@ -2229,7 +2258,7 @@
    "referenced_type" : "_ZTI9elf32_hdr",
    "self_type" : "_ZTI9elf32_hdr",
    "size" : 52,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 4,
@@ -2250,7 +2279,7 @@
    "referenced_type" : "_ZTI9elf32_rel",
    "self_type" : "_ZTI9elf32_rel",
    "size" : 8,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 4,
@@ -2291,7 +2320,7 @@
    "referenced_type" : "_ZTI9elf32_sym",
    "self_type" : "_ZTI9elf32_sym",
    "size" : 16,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 8,
@@ -2372,7 +2401,7 @@
    "referenced_type" : "_ZTI9elf64_hdr",
    "self_type" : "_ZTI9elf64_hdr",
    "size" : 64,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 8,
@@ -2393,7 +2422,7 @@
    "referenced_type" : "_ZTI9elf64_rel",
    "self_type" : "_ZTI9elf64_rel",
    "size" : 16,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 8,
@@ -2434,7 +2463,7 @@
    "referenced_type" : "_ZTI9elf64_sym",
    "self_type" : "_ZTI9elf64_sym",
    "size" : 24,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 4,
@@ -2452,7 +2481,7 @@
    "referenced_type" : "_ZTIN12Elf32_auxv_tUt_E",
    "self_type" : "_ZTIN12Elf32_auxv_tUt_E",
    "size" : 4,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 8,
@@ -2470,7 +2499,7 @@
    "referenced_type" : "_ZTIN12Elf64_auxv_tUt_E",
    "self_type" : "_ZTIN12Elf64_auxv_tUt_E",
    "size" : 8,
-   "source_file" : "/bionic/libc/include/elf.h"
+   "source_file" : "bionic/libc/include/elf.h"
   },
   {
    "alignment" : 4,
@@ -2487,12 +2516,12 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7dynamicUt_E",
-   "name" : "dynamic::(anonymous union at bionic/libc/kernel/uapi/linux/elf.h:119:3)",
+   "name" : "dynamic::(anonymous union at bionic/libc/kernel/uapi/linux/elf.h:120:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7dynamicUt_E",
    "self_type" : "_ZTIN7dynamicUt_E",
    "size" : 4,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   },
   {
    "alignment" : 8,
@@ -2509,12 +2538,12 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN9Elf64_DynUt_E",
-   "name" : "Elf64_Dyn::(anonymous union at bionic/libc/kernel/uapi/linux/elf.h:126:3)",
+   "name" : "Elf64_Dyn::(anonymous union at bionic/libc/kernel/uapi/linux/elf.h:127:3)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN9Elf64_DynUt_E",
    "self_type" : "_ZTIN9Elf64_DynUt_E",
    "size" : 8,
-   "source_file" : "/bionic/libc/kernel/uapi/linux/elf.h"
+   "source_file" : "bionic/libc/kernel/uapi/linux/elf.h"
   }
  ],
  "rvalue_reference_types" : []
