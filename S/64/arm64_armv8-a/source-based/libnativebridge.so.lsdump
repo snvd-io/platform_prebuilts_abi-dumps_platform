@@ -1,0 +1,86 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "InitializeNativeBridge"
+  },
+  {
+   "name" : "LoadNativeBridge"
+  },
+  {
+   "name" : "NativeBridgeAvailable"
+  },
+  {
+   "name" : "NativeBridgeCreateNamespace"
+  },
+  {
+   "name" : "NativeBridgeError"
+  },
+  {
+   "name" : "NativeBridgeGetError"
+  },
+  {
+   "name" : "NativeBridgeGetExportedNamespace"
+  },
+  {
+   "name" : "NativeBridgeGetSignalHandler"
+  },
+  {
+   "name" : "NativeBridgeGetTrampoline"
+  },
+  {
+   "name" : "NativeBridgeGetVersion"
+  },
+  {
+   "name" : "NativeBridgeInitAnonymousNamespace"
+  },
+  {
+   "name" : "NativeBridgeInitialized"
+  },
+  {
+   "name" : "NativeBridgeIsPathSupported"
+  },
+  {
+   "name" : "NativeBridgeIsSupported"
+  },
+  {
+   "name" : "NativeBridgeLinkNamespaces"
+  },
+  {
+   "name" : "NativeBridgeLoadLibrary"
+  },
+  {
+   "name" : "NativeBridgeLoadLibraryExt"
+  },
+  {
+   "name" : "NativeBridgeNameAcceptable"
+  },
+  {
+   "name" : "NativeBridgeUnloadLibrary"
+  },
+  {
+   "name" : "NeedsNativeBridge"
+  },
+  {
+   "name" : "PreInitializeNativeBridge"
+  },
+  {
+   "name" : "PreZygoteForkNativeBridge"
+  },
+  {
+   "name" : "UnloadNativeBridge"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
