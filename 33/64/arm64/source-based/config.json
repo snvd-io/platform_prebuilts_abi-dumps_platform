@@ -1,0 +1,10 @@
+{
+  "libselinux": [
+    {
+      "target_version": "34",
+      "ignore_linker_set_keys": [
+        "security_load_policy"
+      ]
+    }
+  ]
+}
