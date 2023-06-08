@@ -67,10 +67,10 @@
    "name" : "ARpcServer_join"
   },
   {
-   "name" : "ARpcServer_newInet"
+   "name" : "ARpcServer_newBoundSocket"
   },
   {
-   "name" : "ARpcServer_newInitUnixDomain"
+   "name" : "ARpcServer_newInet"
   },
   {
    "name" : "ARpcServer_newVsock"
@@ -156,6 +156,21 @@
    "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
   },
   {
+   "function_name" : "ARpcServer_newBoundSocket",
+   "linker_set_key" : "ARpcServer_newBoundSocket",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP8AIBinder"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIP10ARpcServer",
+   "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
+  },
+  {
    "function_name" : "ARpcServer_newInet",
    "linker_set_key" : "ARpcServer_newInet",
    "parameters" :
@@ -168,21 +183,6 @@
     },
     {
      "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIP10ARpcServer",
-   "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
-  },
-  {
-   "function_name" : "ARpcServer_newInitUnixDomain",
-   "linker_set_key" : "ARpcServer_newInitUnixDomain",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP8AIBinder"
-    },
-    {
-     "referenced_type" : "_ZTIPKc"
     }
    ],
    "return_type" : "_ZTIP10ARpcServer",
