@@ -1,0 +1,682 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "AApexInfo_create"
+  },
+  {
+   "name" : "AApexInfo_destroy"
+  },
+  {
+   "name" : "AApexInfo_getName"
+  },
+  {
+   "name" : "AApexInfo_getVersion"
+  },
+  {
+   "name" : "_RNvMNtCs8l6Tmkn1WCW_5alloc6stringNtB2_6String15from_utf8_lossy"
+  },
+  {
+   "name" : "_RNvMNtCs8mcccun3LTK_9hashbrown3rawNtB2_11Fallibility17capacity_overflow"
+  },
+  {
+   "name" : "_RNvMNtCs8mcccun3LTK_9hashbrown3rawNtB2_11Fallibility9alloc_err"
+  },
+  {
+   "name" : "_RNvMNtCscs1j4dbztVW_8protobuf18coded_input_streamNtB2_16CodedInputStream10push_limit"
+  },
+  {
+   "name" : "_RNvMNtCscs1j4dbztVW_8protobuf18coded_input_streamNtB2_16CodedInputStream10read_int64"
+  },
+  {
+   "name" : "_RNvMNtCscs1j4dbztVW_8protobuf18coded_input_streamNtB2_16CodedInputStream10skip_field"
+  },
+  {
+   "name" : "_RNvMNtCscs1j4dbztVW_8protobuf18coded_input_streamNtB2_16CodedInputStream11read_string"
+  },
+  {
+   "name" : "_RNvMNtCscs1j4dbztVW_8protobuf18coded_input_streamNtB2_16CodedInputStream12read_unknown"
+  },
+  {
+   "name" : "_RNvMNtCscs1j4dbztVW_8protobuf18coded_input_streamNtB2_16CodedInputStream14skip_raw_bytes"
+  },
+  {
+   "name" : "_RNvMNtCscs1j4dbztVW_8protobuf18coded_input_streamNtB2_16CodedInputStream16read_string_into"
+  },
+  {
+   "name" : "_RNvMNtCscs1j4dbztVW_8protobuf18coded_input_streamNtB2_16CodedInputStream22read_raw_varint32_slow"
+  },
+  {
+   "name" : "_RNvMNtCscs1j4dbztVW_8protobuf18coded_input_streamNtB2_16CodedInputStream22read_raw_varint64_slow"
+  },
+  {
+   "name" : "_RNvMNtCscs1j4dbztVW_8protobuf18coded_input_streamNtB2_16CodedInputStream3new"
+  },
+  {
+   "name" : "_RNvMNtCscs1j4dbztVW_8protobuf18coded_input_streamNtB2_16CodedInputStream9check_eof"
+  },
+  {
+   "name" : "_RNvMNtCscs1j4dbztVW_8protobuf18coded_input_streamNtB2_16CodedInputStream9pop_limit"
+  },
+  {
+   "name" : "_RNvMNtCscs1j4dbztVW_8protobuf18coded_input_streamNtB2_16CodedInputStream9read_bool"
+  },
+  {
+   "name" : "_RNvMNtCscs1j4dbztVW_8protobuf7specialNtB2_13SpecialFields18mut_unknown_fields"
+  },
+  {
+   "name" : "_RNvMNtCsigYXxsQj60g_4core4charNtB2_13EscapeUnicode3new"
+  },
+  {
+   "name" : "_RNvMNtNtCs51HVTe8mXkC_3std10sys_common16thread_local_keyNtB2_9StaticKey9lazy_init"
+  },
+  {
+   "name" : "_RNvMNtNtCscs1j4dbztVW_8protobuf18coded_input_stream9input_bufNtB2_8InputBuf14pos_within_buf"
+  },
+  {
+   "name" : "_RNvMNtNtCsigYXxsQj60g_4core3str5lossyNtB2_9Utf8Chunk5valid"
+  },
+  {
+   "name" : "_RNvMNtNtCsigYXxsQj60g_4core3str5lossyNtB2_9Utf8Chunk7invalid"
+  },
+  {
+   "name" : "_RNvMNtNtCsigYXxsQj60g_4core5panic10panic_infoNtB2_9PanicInfo10can_unwind"
+  },
+  {
+   "name" : "_RNvMNtNtCsigYXxsQj60g_4core5panic10panic_infoNtB2_9PanicInfo7message"
+  },
+  {
+   "name" : "_RNvMNtNtCsigYXxsQj60g_4core5panic10panic_infoNtB2_9PanicInfo7payload"
+  },
+  {
+   "name" : "_RNvMNtNtCsigYXxsQj60g_4core5panic10panic_infoNtB2_9PanicInfo8location"
+  },
+  {
+   "name" : "_RNvMNtNtNtNtCs51HVTe8mXkC_3std3sys4unix5locks11futex_mutexNtB2_5Mutex14lock_contended"
+  },
+  {
+   "name" : "_RNvMNtNtNtNtCs51HVTe8mXkC_3std3sys4unix5locks12futex_rwlockNtB2_6RwLock14read_contended"
+  },
+  {
+   "name" : "_RNvMNtNtNtNtCs51HVTe8mXkC_3std3sys4unix5locks12futex_rwlockNtB2_6RwLock22wake_writer_or_readers"
+  },
+  {
+   "name" : "_RNvMs0_NtCscs1j4dbztVW_8protobuf7unknownNtB5_13UnknownValues9add_value"
+  },
+  {
+   "name" : "_RNvMs0_NtNtCsigYXxsQj60g_4core3str5lossyNtB5_10Utf8Chunks3new"
+  },
+  {
+   "name" : "_RNvMs0_NtNtCsigYXxsQj60g_4core3str5lossyNtB5_10Utf8Chunks5debug"
+  },
+  {
+   "name" : "_RNvMs1_NtNtCsigYXxsQj60g_4core3fmt8buildersNtB5_11DebugStruct5field"
+  },
+  {
+   "name" : "_RNvMs1_NtNtCsigYXxsQj60g_4core3fmt8buildersNtB5_11DebugStruct6finish"
+  },
+  {
+   "name" : "_RNvMs2_NtNtCsigYXxsQj60g_4core3fmt8buildersNtB5_10DebugTuple5field"
+  },
+  {
+   "name" : "_RNvMs2_NtNtCsigYXxsQj60g_4core3fmt8buildersNtB5_10DebugTuple6finish"
+  },
+  {
+   "name" : "_RNvMs4_NtCs51HVTe8mXkC_3std4pathNtB5_9Component9as_os_str"
+  },
+  {
+   "name" : "_RNvMs4_NtNtCs51HVTe8mXkC_3std2io5errorNtB5_5Error4__new"
+  },
+  {
+   "name" : "_RNvMs4_NtNtCsigYXxsQj60g_4core3ffi5c_strNtB5_4CStr19from_bytes_with_nul"
+  },
+  {
+   "name" : "_RNvMs4_NtNtCsigYXxsQj60g_4core3fmt8buildersNtB5_8DebugSet5entry"
+  },
+  {
+   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter10debug_list"
+  },
+  {
+   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter11debug_tuple"
+  },
+  {
+   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter12debug_struct"
+  },
+  {
+   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter12pad_integral"
+  },
+  {
+   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter15debug_lower_hex"
+  },
+  {
+   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter15debug_upper_hex"
+  },
+  {
+   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter25debug_tuple_field1_finish"
+  },
+  {
+   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter25debug_tuple_field2_finish"
+  },
+  {
+   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter25debug_tuple_field3_finish"
+  },
+  {
+   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter26debug_struct_field2_finish"
+  },
+  {
+   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter3pad"
+  },
+  {
+   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter9alternate"
+  },
+  {
+   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter9write_fmt"
+  },
+  {
+   "name" : "_RNvMs5_NtCsigYXxsQj60g_4core3fmtNtB5_9Formatter9write_str"
+  },
+  {
+   "name" : "_RNvMs5_NtNtCsigYXxsQj60g_4core3fmt8buildersNtB5_9DebugList5entry"
+  },
+  {
+   "name" : "_RNvMs5_NtNtCsigYXxsQj60g_4core3fmt8buildersNtB5_9DebugList6finish"
+  },
+  {
+   "name" : "_RNvMs6_NtCsigYXxsQj60g_4core3numm14from_str_radix"
+  },
+  {
+   "name" : "_RNvMs8_NtCs51HVTe8mXkC_3std4pathNtB5_10Components7as_path"
+  },
+  {
+   "name" : "_RNvMs8_NtCsigYXxsQj60g_4core4charNtB5_11EscapeDebug12from_unicode"
+  },
+  {
+   "name" : "_RNvMs8_NtCsigYXxsQj60g_4core4charNtB5_11EscapeDebug5clear"
+  },
+  {
+   "name" : "_RNvMs8_NtCsigYXxsQj60g_4core4charNtB5_11EscapeDebug9backslash"
+  },
+  {
+   "name" : "_RNvMs8_NtCsigYXxsQj60g_4core4charNtB5_11EscapeDebug9printable"
+  },
+  {
+   "name" : "_RNvMs9_NtCs51HVTe8mXkC_3std2fsNtB5_11OpenOptions3new"
+  },
+  {
+   "name" : "_RNvMs9_NtCs51HVTe8mXkC_3std2fsNtB5_11OpenOptions4read"
+  },
+  {
+   "name" : "_RNvMs9_NtCs51HVTe8mXkC_3std2fsNtB5_11OpenOptions5__open"
+  },
+  {
+   "name" : "_RNvMsZ_NtCs51HVTe8mXkC_3std4pathNtB5_4Path10components"
+  },
+  {
+   "name" : "_RNvMsZ_NtCs51HVTe8mXkC_3std4pathNtB5_4Path11to_path_buf"
+  },
+  {
+   "name" : "_RNvMsZ_NtCs51HVTe8mXkC_3std4pathNtB5_4Path13__strip_prefix"
+  },
+  {
+   "name" : "_RNvMsZ_NtCs51HVTe8mXkC_3std4pathNtB5_4Path5__join"
+  },
+  {
+   "name" : "_RNvMs_NtCs8DYJfcVNz72_13apex_manifest13apex_manifestNtB4_12ApexManifest3new"
+  },
+  {
+   "name" : "_RNvMs_NtNtCs8l6Tmkn1WCW_5alloc3ffi5c_strNtB4_7CString19__from_vec_unchecked"
+  },
+  {
+   "name" : "_RNvMs_NtNtCscs1j4dbztVW_8protobuf18coded_input_stream13buf_read_iterNtB4_11BufReadIter13fill_buf_slow"
+  },
+  {
+   "name" : "_RNvMs_NtNtCscs1j4dbztVW_8protobuf18coded_input_stream13buf_read_iterNtB4_11BufReadIter15read_exact_slow"
+  },
+  {
+   "name" : "_RNvMsr_NtNtCsigYXxsQj60g_4core3str7patternNtB5_11StrSearcher3new"
+  },
+  {
+   "name" : "_RNvNtCs51HVTe8mXkC_3std3env11current_dir"
+  },
+  {
+   "name" : "_RNvNtCs51HVTe8mXkC_3std3env11current_exe"
+  },
+  {
+   "name" : "_RNvNtCs51HVTe8mXkC_3std5alloc8rust_oom"
+  },
+  {
+   "name" : "_RNvNtCs51HVTe8mXkC_3std7process5abort"
+  },
+  {
+   "name" : "_RNvNtCs51HVTe8mXkC_3std9panicking12default_hook"
+  },
+  {
+   "name" : "_RNvNtCs51HVTe8mXkC_3std9panicking20rust_panic_with_hook"
+  },
+  {
+   "name" : "_RNvNtCs8l6Tmkn1WCW_5alloc4sync32arcinner_layout_for_value_layout"
+  },
+  {
+   "name" : "_RNvNtCs8l6Tmkn1WCW_5alloc5alloc18handle_alloc_error"
+  },
+  {
+   "name" : "_RNvNtCs8l6Tmkn1WCW_5alloc7raw_vec17capacity_overflow"
+  },
+  {
+   "name" : "_RNvNtCsigYXxsQj60g_4core3fmt17pointer_fmt_inner"
+  },
+  {
+   "name" : "_RNvNtCsigYXxsQj60g_4core3fmt5write"
+  },
+  {
+   "name" : "_RNvNtCsigYXxsQj60g_4core3str16slice_error_fail"
+  },
+  {
+   "name" : "_RNvNtCsigYXxsQj60g_4core3str19slice_error_fail_rt"
+  },
+  {
+   "name" : "_RNvNtCsigYXxsQj60g_4core6option13expect_failed"
+  },
+  {
+   "name" : "_RNvNtCsigYXxsQj60g_4core6result13unwrap_failed"
+  },
+  {
+   "name" : "_RNvNtCsigYXxsQj60g_4core9panicking18panic_bounds_check"
+  },
+  {
+   "name" : "_RNvNtCsigYXxsQj60g_4core9panicking19assert_failed_inner"
+  },
+  {
+   "name" : "_RNvNtCsigYXxsQj60g_4core9panicking5panic"
+  },
+  {
+   "name" : "_RNvNtCsigYXxsQj60g_4core9panicking9panic_fmt"
+  },
+  {
+   "name" : "_RNvNtNtCs51HVTe8mXkC_3std2io5stdio7__eprint"
+  },
+  {
+   "name" : "_RNvNtNtCs51HVTe8mXkC_3std3sys4unix14abort_internal"
+  },
+  {
+   "name" : "_RNvNtNtCs51HVTe8mXkC_3std3sys4unix17decode_error_kind"
+  },
+  {
+   "name" : "_RNvNtNtCs51HVTe8mXkC_3std9panicking11panic_count17is_zero_slow_path"
+  },
+  {
+   "name" : "_RNvNtNtCscs1j4dbztVW_8protobuf2rt16unknown_or_group26read_unknown_or_skip_group"
+  },
+  {
+   "name" : "_RNvNtNtCsigYXxsQj60g_4core3str5count14do_count_chars"
+  },
+  {
+   "name" : "_RNvNtNtCsigYXxsQj60g_4core3str5count23char_count_general_case"
+  },
+  {
+   "name" : "_RNvNtNtCsigYXxsQj60g_4core3str6traits23str_index_overflow_fail"
+  },
+  {
+   "name" : "_RNvNtNtCsigYXxsQj60g_4core3str8converts9from_utf8"
+  },
+  {
+   "name" : "_RNvNtNtCsigYXxsQj60g_4core5slice5index22slice_index_order_fail"
+  },
+  {
+   "name" : "_RNvNtNtCsigYXxsQj60g_4core5slice5index24slice_end_index_len_fail"
+  },
+  {
+   "name" : "_RNvNtNtCsigYXxsQj60g_4core5slice5index26slice_start_index_len_fail"
+  },
+  {
+   "name" : "_RNvNtNtCsigYXxsQj60g_4core5slice6memchr14memchr_aligned"
+  },
+  {
+   "name" : "_RNvNtNtCsigYXxsQj60g_4core7unicode9printable12is_printable"
+  },
+  {
+   "name" : "_RNvNtNtNtCsigYXxsQj60g_4core7unicode12unicode_data15grapheme_extend6lookup"
+  },
+  {
+   "name" : "_RNvNtNtNtCsigYXxsQj60g_4core7unicode12unicode_data2cc6lookup"
+  },
+  {
+   "name" : "_RNvNvMNtCsigYXxsQj60g_4core5sliceSp15copy_from_slice17len_mismatch_fail"
+  },
+  {
+   "name" : "_RNvNvMs4_NtNtCsigYXxsQj60g_4core3ffi5c_strNtB7_4CStr8from_ptr9strlen_rt"
+  },
+  {
+   "name" : "_RNvNvNtCs8l6Tmkn1WCW_5alloc3fmt6format12format_inner"
+  },
+  {
+   "name" : "_RNvNvNtCs8l6Tmkn1WCW_5alloc5alloc18handle_alloc_error8rt_error"
+  },
+  {
+   "name" : "_RNvXNtCs3jb9llYclZH_14rustc_demangle6legacyNtB2_8DemangleNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXNtCscs1j4dbztVW_8protobuf5errorNtB2_5ErrorINtNtCsigYXxsQj60g_4core7convert4FromNtB2_13ProtobufErrorE4from"
+  },
+  {
+   "name" : "_RNvXNtNtCs51HVTe8mXkC_3std2io5errorNtB2_5ErrorNtNtCsigYXxsQj60g_4core3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXNtNtCscs1j4dbztVW_8protobuf18coded_input_stream13buf_read_iterNtB2_11BufReadIterNtNtNtCsigYXxsQj60g_4core3ops4drop4Drop4drop"
+  },
+  {
+   "name" : "_RNvXNtNtCscs1j4dbztVW_8protobuf6varint6decodeyNtB2_12DecodeVarint8from_u64"
+  },
+  {
+   "name" : "_RNvXNtNtCscs1j4dbztVW_8protobuf7reflect5errorNtB2_12ReflectErrorNtNtCsigYXxsQj60g_4core3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXNvMNtCscs1j4dbztVW_8protobuf18coded_input_streamNtB5_16CodedInputStream13merge_messageNtB2_13DecrRecursionNtNtNtCsigYXxsQj60g_4core3ops4drop4Drop4drop"
+  },
+  {
+   "name" : "_RNvXNvNtNtCs51HVTe8mXkC_3std10sys_common9backtrace6__printNtB2_16DisplayBacktraceNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXNvXs14_NtCs8l6Tmkn1WCW_5alloc5boxedINtB9_3BoxDNtNtCsigYXxsQj60g_4core5error5ErrorNtNtBQ_6marker4SyncNtB1n_4SendEL_EINtNtBQ_7convert4FromNtNtBb_6string6StringE4fromNtB2_11StringErrorBM_11description"
+  },
+  {
+   "name" : "_RNvXs0_NtCs3jb9llYclZH_14rustc_demangle2v0NtB5_5IdentNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs0_NtCs8DYJfcVNz72_13apex_manifest13apex_manifestNtB5_12ApexManifestNtNtCscs1j4dbztVW_8protobuf7message7Message10merge_from"
+  },
+  {
+   "name" : "_RNvXs0_NtCs8DYJfcVNz72_13apex_manifest13apex_manifestNtB5_12ApexManifestNtNtCscs1j4dbztVW_8protobuf7message7Message14is_initialized"
+  },
+  {
+   "name" : "_RNvXs0_NtCs8DYJfcVNz72_13apex_manifest13apex_manifestNtB5_12ApexManifestNtNtCscs1j4dbztVW_8protobuf7message7Message3new"
+  },
+  {
+   "name" : "_RNvXs0_NtNtCs51HVTe8mXkC_3std2io5stdioNtB5_9StderrRawNtB7_5Write9write_all"
+  },
+  {
+   "name" : "_RNvXs0_NtNtCs8DYJfcVNz72_13apex_manifest13apex_manifest13apex_manifestNtB5_22CompressedApexMetadataNtNtCscs1j4dbztVW_8protobuf7message7Message10merge_from"
+  },
+  {
+   "name" : "_RNvXs0_NtNtCsigYXxsQj60g_4core3fmt8buildersNtB5_10PadAdapterNtB7_5Write9write_str"
+  },
+  {
+   "name" : "_RNvXs0_NtNtCsigYXxsQj60g_4core5panic8locationNtB5_8LocationNtNtB9_3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs0_NvNtCs51HVTe8mXkC_3std9panicking19begin_panic_handlerNtB5_15StrPanicPayloadNtNtCsigYXxsQj60g_4core5panic7BoxMeUp3get"
+  },
+  {
+   "name" : "_RNvXs0_NvNtCs51HVTe8mXkC_3std9panicking19begin_panic_handlerNtB5_15StrPanicPayloadNtNtCsigYXxsQj60g_4core5panic7BoxMeUp8take_box"
+  },
+  {
+   "name" : "_RNvXs0_NvXs14_NtCs8l6Tmkn1WCW_5alloc5boxedINtBc_3BoxDNtNtCsigYXxsQj60g_4core5error5ErrorNtNtBT_6marker4SyncNtB1q_4SendEL_EINtNtBT_7convert4FromNtNtBe_6string6StringE4fromNtB5_11StringErrorNtNtBT_3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXs10_NtNtCsigYXxsQj60g_4core3fmt3numxNtB8_8LowerHex3fmt"
+  },
+  {
+   "name" : "_RNvXs11_NtNtCsigYXxsQj60g_4core3fmt3numxNtB8_8UpperHex3fmt"
+  },
+  {
+   "name" : "_RNvXs12_NtCs8l6Tmkn1WCW_5alloc6stringINtNtB8_3vec3VechEINtNtCsigYXxsQj60g_4core7convert4FromNtB6_6StringE4from"
+  },
+  {
+   "name" : "_RNvXs14_NtNtCsigYXxsQj60g_4core3fmt3numyNtB8_8LowerHex3fmt"
+  },
+  {
+   "name" : "_RNvXs15_NtNtCsigYXxsQj60g_4core3fmt3numyNtB8_8UpperHex3fmt"
+  },
+  {
+   "name" : "_RNvXs1_Cs3jb9llYclZH_14rustc_demangleNtB5_8DemangleNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs1_NtNtCsigYXxsQj60g_4core3str5lossyNtB5_10Utf8ChunksNtNtNtNtB9_4iter6traits8iterator8Iterator4next"
+  },
+  {
+   "name" : "_RNvXs2_NtCscs1j4dbztVW_8protobuf5errorNtB5_5ErrorINtNtCsigYXxsQj60g_4core7convert4FromNtNtNtCs51HVTe8mXkC_3std2io5error5ErrorE4from"
+  },
+  {
+   "name" : "_RNvXs2_NtNtNtCsigYXxsQj60g_4core3fmt3num3implNtB9_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs3_NtCs51HVTe8mXkC_3std2fsNtB5_4FileNtNtB7_2io4Read11read_to_end"
+  },
+  {
+   "name" : "_RNvXs3_NtCs51HVTe8mXkC_3std2fsNtB5_4FileNtNtB7_2io4Read13read_vectored"
+  },
+  {
+   "name" : "_RNvXs3_NtCs51HVTe8mXkC_3std2fsNtB5_4FileNtNtB7_2io4Read14read_to_string"
+  },
+  {
+   "name" : "_RNvXs3_NtCs51HVTe8mXkC_3std2fsNtB5_4FileNtNtB7_2io4Read4read"
+  },
+  {
+   "name" : "_RNvXs3_NtCs51HVTe8mXkC_3std2fsNtB5_4FileNtNtB7_2io4Read8read_buf"
+  },
+  {
+   "name" : "_RNvXs3_NtCscs1j4dbztVW_8protobuf5errorNtB5_9WireErrorNtNtCsigYXxsQj60g_4core3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXs3_NtCsigYXxsQj60g_4core3fmtNtB5_9ArgumentsNtB5_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs3_NtNtCs51HVTe8mXkC_3std12backtrace_rs9symbolizeNtB5_10SymbolNameNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs3_NtNtNtCs51HVTe8mXkC_3std3sys4unix5stdioNtB5_6StderrNtNtBb_2io5Write14write_vectored"
+  },
+  {
+   "name" : "_RNvXs3_NtNtNtCs51HVTe8mXkC_3std3sys4unix5stdioNtB5_6StderrNtNtBb_2io5Write5flush"
+  },
+  {
+   "name" : "_RNvXs3_NtNtNtCs51HVTe8mXkC_3std3sys4unix5stdioNtB5_6StderrNtNtBb_2io5Write5write"
+  },
+  {
+   "name" : "_RNvXs3_NtNtNtCsigYXxsQj60g_4core3fmt3num3impmNtB9_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs4_NtNtNtCsigYXxsQj60g_4core3fmt3num3impxNtB9_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs5_NtNtCs51HVTe8mXkC_3std2io5errorNtNtB5_14repr_bitpacked4ReprNtNtCsigYXxsQj60g_4core3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXs5_NtNtNtCsigYXxsQj60g_4core3fmt3num3impyNtB9_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs6_NtCscs1j4dbztVW_8protobuf5errorNtB5_13ProtobufErrorNtNtCsigYXxsQj60g_4core3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXs6_NtCsigYXxsQj60g_4core3fmtNtB5_9FormatterNtB5_5Write10write_char"
+  },
+  {
+   "name" : "_RNvXs6_NtCsigYXxsQj60g_4core3fmtNtB5_9FormatterNtB5_5Write9write_str"
+  },
+  {
+   "name" : "_RNvXs6_NtNtNtCsigYXxsQj60g_4core3fmt3num3impjNtB9_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs7_Cs3jb9llYclZH_14rustc_demangleNtB5_18SizeLimitExhaustedNtNtCsigYXxsQj60g_4core3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXs9_NtNtCsigYXxsQj60g_4core3str5errorNtB5_9Utf8ErrorNtNtB9_3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXsC_NtNtCsigYXxsQj60g_4core3fmt3numaNtB7_8LowerHex3fmt"
+  },
+  {
+   "name" : "_RNvXsD_NtNtCsigYXxsQj60g_4core3fmt3numaNtB7_8UpperHex3fmt"
+  },
+  {
+   "name" : "_RNvXsE_NtCsigYXxsQj60g_4core3fmtNtB5_5ErrorNtB5_5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXsF_NtCs51HVTe8mXkC_3std4pathNtB5_7PathBufNtNtCsigYXxsQj60g_4core3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXsG_NtNtCsigYXxsQj60g_4core3fmt3numhNtB7_8LowerHex3fmt"
+  },
+  {
+   "name" : "_RNvXsH_NtNtCsigYXxsQj60g_4core3fmt3numhNtB7_8UpperHex3fmt"
+  },
+  {
+   "name" : "_RNvXsM_NtNtCs8l6Tmkn1WCW_5alloc3ffi5c_strNtB5_8NulErrorNtNtCsigYXxsQj60g_4core3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXsS_NtNtCsigYXxsQj60g_4core3fmt3numlNtB7_8LowerHex3fmt"
+  },
+  {
+   "name" : "_RNvXsT_NtNtCsigYXxsQj60g_4core3fmt3numlNtB7_8UpperHex3fmt"
+  },
+  {
+   "name" : "_RNvXsV_NtCs8l6Tmkn1WCW_5alloc6stringNtB5_6StringINtNtCsigYXxsQj60g_4core7convert4FromINtNtB7_6borrow3CoweEE4from"
+  },
+  {
+   "name" : "_RNvXsW_NtNtCsigYXxsQj60g_4core3fmt3nummNtB7_8LowerHex3fmt"
+  },
+  {
+   "name" : "_RNvXsX_NtNtCsigYXxsQj60g_4core3fmt3nummNtB7_8UpperHex3fmt"
+  },
+  {
+   "name" : "_RNvXs_NtCscs1j4dbztVW_8protobuf5errorNtB4_5ErrorINtNtCsigYXxsQj60g_4core7convert4FromNtB4_9WireErrorE4from"
+  },
+  {
+   "name" : "_RNvXs_NtNtCs51HVTe8mXkC_3std6thread5localNtB4_11AccessErrorNtNtCsigYXxsQj60g_4core3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXs_NtNtCscs1j4dbztVW_8protobuf6varint6decodemNtB4_12DecodeVarint8from_u64"
+  },
+  {
+   "name" : "_RNvXs_NtNtCsigYXxsQj60g_4core3str5lossyNtB4_5DebugNtNtB8_3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXs_NtNtCsigYXxsQj60g_4core5panic10panic_infoNtB4_9PanicInfoNtNtB8_3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs_NtNtNtCs51HVTe8mXkC_3std3sys4unix6os_strNtB4_5SliceNtNtCsigYXxsQj60g_4core3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs_NtNtNtCsigYXxsQj60g_4core3fmt3num3imphNtB8_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXs_NvMs_NtNtCs8l6Tmkn1WCW_5alloc3ffi5c_strNtB9_7CString3newRShNtB4_11SpecNewImpl13spec_new_impl"
+  },
+  {
+   "name" : "_RNvXs_NvNtCs51HVTe8mXkC_3std9panicking19begin_panic_handlerNtB4_12PanicPayloadNtNtCsigYXxsQj60g_4core5panic7BoxMeUp3get"
+  },
+  {
+   "name" : "_RNvXs_NvNtCs51HVTe8mXkC_3std9panicking19begin_panic_handlerNtB4_12PanicPayloadNtNtCsigYXxsQj60g_4core5panic7BoxMeUp8take_box"
+  },
+  {
+   "name" : "_RNvXs_NvXs14_NtCs8l6Tmkn1WCW_5alloc5boxedINtBb_3BoxDNtNtCsigYXxsQj60g_4core5error5ErrorNtNtBS_6marker4SyncNtB1p_4SendEL_EINtNtBS_7convert4FromNtNtBd_6string6StringE4fromNtB4_11StringErrorNtNtBS_3fmt7Display3fmt"
+  },
+  {
+   "name" : "_RNvXsc_NtCsigYXxsQj60g_4core3fmteNtB5_5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXsc_NtNtCs51HVTe8mXkC_3std2io5errorNtB5_9ErrorKindNtNtCsigYXxsQj60g_4core3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXsc_NtNtCsigYXxsQj60g_4core3num5errorNtB5_13ParseIntErrorNtNtB9_3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXsd_NtCscs1j4dbztVW_8protobuf5errorNtB5_5ErrorNtNtCsigYXxsQj60g_4core3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXsd_NtCsigYXxsQj60g_4core3fmteNtB5_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXse_NtCsigYXxsQj60g_4core3fmtcNtB5_5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXse_NtNtCsigYXxsQj60g_4core5alloc6layoutNtB5_11LayoutErrorNtNtB9_3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXsf_NtCsigYXxsQj60g_4core3fmtcNtB5_7Display3fmt"
+  },
+  {
+   "name" : "_RNvXsh_NtCsigYXxsQj60g_4core4cellNtB5_14BorrowMutErrorNtNtB7_3fmt5Debug3fmt"
+  },
+  {
+   "name" : "_RNvXsh_NtNtCs51HVTe8mXkC_3std2io5stdioRNtB5_6StderrNtB7_5Write9write_fmt"
+  },
+  {
+   "name" : "_RNvXsi_NtCs51HVTe8mXkC_3std4pathNtB5_10ComponentsNtNtNtNtCsigYXxsQj60g_4core4iter6traits8iterator8Iterator4next"
+  },
+  {
+   "name" : "_RNvXso_NtCsigYXxsQj60g_4core3numjNtNtNtB7_3str6traits7FromStr8from_str"
+  },
+  {
+   "name" : "_RNvXsy_NtNtCsigYXxsQj60g_4core3fmt3numjNtB7_8LowerHex3fmt"
+  },
+  {
+   "name" : "_RNvXsz_NtNtCsigYXxsQj60g_4core3fmt3numjNtB7_8UpperHex3fmt"
+  },
+  {
+   "name" : "__rdl_alloc"
+  },
+  {
+   "name" : "__rdl_dealloc"
+  },
+  {
+   "name" : "__rdl_realloc"
+  },
+  {
+   "name" : "__rg_oom"
+  },
+  {
+   "name" : "__rust_alloc"
+  },
+  {
+   "name" : "__rust_alloc_error_handler"
+  },
+  {
+   "name" : "__rust_dealloc"
+  },
+  {
+   "name" : "__rust_realloc"
+  },
+  {
+   "name" : "__rust_start_panic"
+  },
+  {
+   "name" : "rust_begin_unwind"
+  },
+  {
+   "name" : "rust_eh_personality"
+  },
+  {
+   "name" : "rust_panic"
+  }
+ ],
+ "elf_objects" :
+ [
+  {
+   "name" : "_RNvNtCs51HVTe8mXkC_3std9panicking4HOOK"
+  },
+  {
+   "name" : "_RNvNtNtCs51HVTe8mXkC_3std9panicking11panic_count18GLOBAL_PANIC_COUNT"
+  },
+  {
+   "name" : "_RNvNtNtCsigYXxsQj60g_4core3fmt2rt12USIZE_MARKER"
+  },
+  {
+   "name" : "__rust_alloc_error_handler_should_panic"
+  },
+  {
+   "name" : "__rust_no_alloc_shim_is_unstable"
+  }
+ ],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
