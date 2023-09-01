@@ -489,13 +489,13 @@
     {
      "access" : "private",
      "field_name" : "dec_sequence_",
-     "field_offset" : 4800,
+     "field_offset" : 4672,
      "referenced_type" : "_ZTIm"
     },
     {
      "access" : "private",
      "field_name" : "enc_sequence_",
-     "field_offset" : 4864,
+     "field_offset" : 4736,
      "referenced_type" : "_ZTIm"
     }
    ],
@@ -504,7 +504,7 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN3adb7pairing9Aes128GcmE",
    "self_type" : "_ZTIN3adb7pairing9Aes128GcmE",
-   "size" : 616,
+   "size" : 600,
    "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/aes_128_gcm.h"
   }
  ],
