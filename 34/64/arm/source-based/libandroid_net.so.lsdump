@@ -3,14 +3,6 @@
  [
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIA0_8in6_addr",
-   "name" : "in6_addr[0]",
-   "referenced_type" : "_ZTI8in6_addr",
-   "self_type" : "_ZTIA0_8in6_addr",
-   "source_file" : "bionic/libc/kernel/uapi/linux/ipv6.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIA10_i",
    "name" : "int[10]",
    "referenced_type" : "_ZTIi",
@@ -142,6 +134,14 @@
    "referenced_type" : "_ZTI16sockaddr_storage",
    "self_type" : "_ZTIA_16sockaddr_storage",
    "source_file" : "bionic/libc/kernel/uapi/linux/in.h"
+  },
+  {
+   "is_of_unknown_bound" : true,
+   "linker_set_key" : "_ZTIA_8in6_addr",
+   "name" : "in6_addr[]",
+   "referenced_type" : "_ZTI8in6_addr",
+   "self_type" : "_ZTIA_8in6_addr",
+   "source_file" : "bionic/libc/kernel/uapi/linux/ipv6.h"
   }
  ],
  "builtin_types" :
@@ -2568,7 +2568,7 @@
     {
      "field_name" : "addr",
      "field_offset" : 64,
-     "referenced_type" : "_ZTIA0_8in6_addr"
+     "referenced_type" : "_ZTIA_8in6_addr"
     }
    ],
    "linker_set_key" : "_ZTI7rt0_hdr",

@@ -22,6 +22,9 @@
    "name" : "AVmPayload_notifyPayloadReady"
   },
   {
+   "name" : "AVmPayload_requestCertificate"
+  },
+  {
    "name" : "AVmPayload_runVsockRpcServer"
   }
  ],
