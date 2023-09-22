@@ -172,27 +172,6 @@
    "size" : 4,
    "source_file" : "libnativehelper/include_jni/jni.h",
    "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 1,
-     "name" : "android::kJNICallTypeRegular"
-    },
-    {
-     "enum_field_value" : 2,
-     "name" : "android::kJNICallTypeCriticalNative"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android11JNICallTypeE",
-   "name" : "android::JNICallType",
-   "referenced_type" : "_ZTIN7android11JNICallTypeE",
-   "self_type" : "_ZTIN7android11JNICallTypeE",
-   "size" : 4,
-   "source_file" : "art/libnativebridge/include/nativebridge/native_bridge.h",
-   "underlying_type" : "_ZTIj"
   }
  ],
  "function_types" :
@@ -1386,33 +1365,6 @@
    "referenced_type" : "_ZTIFPvS_PKcS1_jE",
    "return_type" : "_ZTIPv",
    "self_type" : "_ZTIFPvS_PKcS1_jE",
-   "source_file" : "art/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIFPvS_PKcS1_jN7android11JNICallTypeEE",
-   "name" : "void *(void *, const char *, const char *, unsigned int, android::JNICallType)",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIPv"
-    },
-    {
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "referenced_type" : "_ZTIPKc"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "referenced_type" : "_ZTIN7android11JNICallTypeE"
-    }
-   ],
-   "referenced_type" : "_ZTIFPvS_PKcS1_jN7android11JNICallTypeEE",
-   "return_type" : "_ZTIPv",
-   "self_type" : "_ZTIFPvS_PKcS1_jN7android11JNICallTypeEE",
    "source_file" : "art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
@@ -6279,15 +6231,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPFPvS_PKcS1_jN7android11JNICallTypeEE",
-   "name" : "void *(*)(void *, const char *, const char *, unsigned int, android::JNICallType)",
-   "referenced_type" : "_ZTIFPvS_PKcS1_jN7android11JNICallTypeEE",
-   "self_type" : "_ZTIPFPvS_PKcS1_jN7android11JNICallTypeEE",
-   "size" : 4,
-   "source_file" : "art/libnativebridge/include/nativebridge/native_bridge.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPFPxP7_JNIEnvP11_jlongArrayPhE",
    "name" : "long long *(*)(_JNIEnv *, _jlongArray *, unsigned char *)",
    "referenced_type" : "_ZTIFPxP7_JNIEnvP11_jlongArrayPhE",
@@ -9999,18 +9942,13 @@
      "field_name" : "preZygoteFork",
      "field_offset" : 544,
      "referenced_type" : "_ZTIPFvvE"
-    },
-    {
-     "field_name" : "getTrampolineWithJNICallType",
-     "field_offset" : 576,
-     "referenced_type" : "_ZTIPFPvS_PKcS1_jN7android11JNICallTypeEE"
     }
    ],
    "linker_set_key" : "_ZTIN7android21NativeBridgeCallbacksE",
    "name" : "android::NativeBridgeCallbacks",
    "referenced_type" : "_ZTIN7android21NativeBridgeCallbacksE",
    "self_type" : "_ZTIN7android21NativeBridgeCallbacksE",
-   "size" : 76,
+   "size" : 72,
    "source_file" : "art/libnativebridge/include/nativebridge/native_bridge.h"
   },
   {
