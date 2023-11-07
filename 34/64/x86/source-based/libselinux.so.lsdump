@@ -86,6 +86,16 @@
    "name" : "void",
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIv"
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "referenced_type" : "_ZTIy",
+   "self_type" : "_ZTIy",
+   "size" : 8
   }
  ],
  "elf_functions" :
@@ -191,6 +201,9 @@
   },
   {
    "name" : "selinux_android_setcontext"
+  },
+  {
+   "name" : "selinux_android_setcontext2"
   },
   {
    "name" : "selinux_android_vendor_service_context_handle"
@@ -955,6 +968,30 @@
    "source_file" : "external/selinux/libselinux/include/selinux/android.h"
   },
   {
+   "function_name" : "selinux_android_setcontext2",
+   "linker_set_key" : "selinux_android_setcontext2",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIKy"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "external/selinux/libselinux/include/selinux/android.h"
+  },
+  {
    "function_name" : "selinux_android_vendor_service_context_handle",
    "linker_set_key" : "selinux_android_vendor_service_context_handle",
    "return_type" : "_ZTIP14selabel_handle",
@@ -1609,6 +1646,16 @@
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIKv",
    "source_file" : "external/selinux/libselinux/include/selinux/selinux.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKy",
+   "name" : "const unsigned long long",
+   "referenced_type" : "_ZTIy",
+   "self_type" : "_ZTIKy",
+   "size" : 8,
+   "source_file" : "external/selinux/libselinux/include/selinux/android.h"
   }
  ],
  "record_types" :
