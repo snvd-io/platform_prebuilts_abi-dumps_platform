@@ -1,0 +1,247 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDi",
+   "name" : "char32_t",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIDn",
+   "name" : "std::nullptr_t",
+   "size" : 8
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDu",
+   "name" : "char8_t",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIa",
+   "name" : "signed char",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTId",
+   "name" : "double",
+   "size" : 8
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "size" : 4
+  },
+  {
+   "alignment" : 16,
+   "linker_set_key" : "_ZTIg",
+   "name" : "long double",
+   "size" : 16
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "size" : 8
+  },
+  {
+   "alignment" : 16,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIn",
+   "name" : "__int128",
+   "size" : 16
+  },
+  {
+   "alignment" : 16,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIo",
+   "name" : "unsigned __int128",
+   "size" : 16
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIs",
+   "name" : "short",
+   "size" : 2
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIt",
+   "name" : "unsigned short",
+   "size" : 2
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIw",
+   "name" : "wchar_t",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "size" : 8
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "adbd_fs_config"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" :
+ [
+  {
+   "function_name" : "adbd_fs_config",
+   "linker_set_key" : "adbd_fs_config",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/adb/libs/libadbd_fs/include/adbd_fs.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "size" : 8,
+   "source_file" : "packages/modules/adb/libs/libadbd_fs/include/adbd_fs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPj",
+   "name" : "unsigned int *",
+   "referenced_type" : "_ZTIj",
+   "size" : 8,
+   "source_file" : "packages/modules/adb/libs/libadbd_fs/include/adbd_fs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPm",
+   "name" : "unsigned long *",
+   "referenced_type" : "_ZTIm",
+   "size" : 8,
+   "source_file" : "packages/modules/adb/libs/libadbd_fs/include/adbd_fs.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "size" : 1,
+   "source_file" : "packages/modules/adb/libs/libadbd_fs/include/adbd_fs.h"
+  }
+ ],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

@@ -1,0 +1,453 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDi",
+   "name" : "char32_t",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIDn",
+   "name" : "std::nullptr_t",
+   "size" : 4
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDs",
+   "name" : "char16_t",
+   "size" : 2
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDu",
+   "name" : "char8_t",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIa",
+   "name" : "signed char",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTId",
+   "name" : "double",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIe",
+   "name" : "long double",
+   "size" : 8
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "size" : 4
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "size" : 4
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIs",
+   "name" : "short",
+   "size" : 2
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIt",
+   "name" : "unsigned short",
+   "size" : 2
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIw",
+   "name" : "wchar_t",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "size" : 8
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "pairing_auth_client_new"
+  },
+  {
+   "name" : "pairing_auth_decrypt"
+  },
+  {
+   "name" : "pairing_auth_destroy"
+  },
+  {
+   "name" : "pairing_auth_encrypt"
+  },
+  {
+   "name" : "pairing_auth_get_spake2_msg"
+  },
+  {
+   "name" : "pairing_auth_init_cipher"
+  },
+  {
+   "name" : "pairing_auth_msg_size"
+  },
+  {
+   "name" : "pairing_auth_safe_decrypted_size"
+  },
+  {
+   "name" : "pairing_auth_safe_encrypted_size"
+  },
+  {
+   "name" : "pairing_auth_server_new"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" :
+ [
+  {
+   "function_name" : "pairing_auth_client_new",
+   "linker_set_key" : "pairing_auth_client_new",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIP14PairingAuthCtx",
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/pairing_auth.h"
+  },
+  {
+   "function_name" : "pairing_auth_decrypt",
+   "linker_set_key" : "pairing_auth_decrypt",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP14PairingAuthCtx"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/pairing_auth.h"
+  },
+  {
+   "function_name" : "pairing_auth_destroy",
+   "linker_set_key" : "pairing_auth_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP14PairingAuthCtx"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/pairing_auth.h"
+  },
+  {
+   "function_name" : "pairing_auth_encrypt",
+   "linker_set_key" : "pairing_auth_encrypt",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP14PairingAuthCtx"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/pairing_auth.h"
+  },
+  {
+   "function_name" : "pairing_auth_get_spake2_msg",
+   "linker_set_key" : "pairing_auth_get_spake2_msg",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP14PairingAuthCtx"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/pairing_auth.h"
+  },
+  {
+   "function_name" : "pairing_auth_init_cipher",
+   "linker_set_key" : "pairing_auth_init_cipher",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP14PairingAuthCtx"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/pairing_auth.h"
+  },
+  {
+   "function_name" : "pairing_auth_msg_size",
+   "linker_set_key" : "pairing_auth_msg_size",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP14PairingAuthCtx"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/pairing_auth.h"
+  },
+  {
+   "function_name" : "pairing_auth_safe_decrypted_size",
+   "linker_set_key" : "pairing_auth_safe_decrypted_size",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP14PairingAuthCtx"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/pairing_auth.h"
+  },
+  {
+   "function_name" : "pairing_auth_safe_encrypted_size",
+   "linker_set_key" : "pairing_auth_safe_encrypted_size",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP14PairingAuthCtx"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/pairing_auth.h"
+  },
+  {
+   "function_name" : "pairing_auth_server_new",
+   "linker_set_key" : "pairing_auth_server_new",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIP14PairingAuthCtx",
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/pairing_auth.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP14PairingAuthCtx",
+   "name" : "PairingAuthCtx *",
+   "referenced_type" : "_ZTI14PairingAuthCtx",
+   "size" : 4,
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/pairing_auth.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKh",
+   "name" : "const unsigned char *",
+   "referenced_type" : "_ZTIKh",
+   "size" : 4,
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/aes_128_gcm.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN3adb7pairing9Aes128GcmE",
+   "name" : "adb::pairing::Aes128Gcm *",
+   "referenced_type" : "_ZTIN3adb7pairing9Aes128GcmE",
+   "size" : 4,
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/aes_128_gcm.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPh",
+   "name" : "unsigned char *",
+   "referenced_type" : "_ZTIh",
+   "size" : 4,
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/aes_128_gcm.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPj",
+   "name" : "unsigned int *",
+   "referenced_type" : "_ZTIj",
+   "size" : 4,
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/pairing_auth.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKh",
+   "name" : "const unsigned char",
+   "referenced_type" : "_ZTIh",
+   "size" : 1,
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/aes_128_gcm.h"
+  }
+ ],
+ "record_types" :
+ [
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "context_",
+     "referenced_type" : "_ZTIN4bssl8internal14StackAllocatedI15evp_aead_ctx_stvXadL_Z17EVP_AEAD_CTX_zeroEEXadL_Z20EVP_AEAD_CTX_cleanupEEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "dec_sequence_",
+     "field_offset" : 4672,
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "access" : "private",
+     "field_name" : "enc_sequence_",
+     "field_offset" : 4736,
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "linker_set_key" : "_ZTIN3adb7pairing9Aes128GcmE",
+   "name" : "adb::pairing::Aes128Gcm",
+   "record_kind" : "class",
+   "size" : 600,
+   "source_file" : "packages/modules/adb/pairing_auth/include/adb/pairing/aes_128_gcm.h"
+  }
+ ],
+ "rvalue_reference_types" : []
+}
