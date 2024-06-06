@@ -950,6 +950,22 @@
     {
      "enum_field_value" : 1,
      "name" : "ADD_SERVICE_ALLOW_ISOLATED"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ADD_SERVICE_DUMP_FLAG_PRIORITY_CRITICAL"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ADD_SERVICE_DUMP_FLAG_PRIORITY_HIGH"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ADD_SERVICE_DUMP_FLAG_PRIORITY_NORMAL"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "ADD_SERVICE_DUMP_FLAG_PRIORITY_DEFAULT"
     }
    ],
    "linker_set_key" : "_ZTI30AServiceManager_AddServiceFlag",
