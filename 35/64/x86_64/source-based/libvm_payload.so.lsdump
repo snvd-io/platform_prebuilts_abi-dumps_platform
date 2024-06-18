@@ -1,0 +1,62 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "AVmAttestationResult_free"
+  },
+  {
+   "name" : "AVmAttestationResult_getCertificateAt"
+  },
+  {
+   "name" : "AVmAttestationResult_getCertificateCount"
+  },
+  {
+   "name" : "AVmAttestationResult_getPrivateKey"
+  },
+  {
+   "name" : "AVmAttestationResult_sign"
+  },
+  {
+   "name" : "AVmAttestationStatus_toString"
+  },
+  {
+   "name" : "AVmPayload_getApkContentsPath"
+  },
+  {
+   "name" : "AVmPayload_getDiceAttestationCdi"
+  },
+  {
+   "name" : "AVmPayload_getDiceAttestationChain"
+  },
+  {
+   "name" : "AVmPayload_getEncryptedStoragePath"
+  },
+  {
+   "name" : "AVmPayload_getVmInstanceSecret"
+  },
+  {
+   "name" : "AVmPayload_notifyPayloadReady"
+  },
+  {
+   "name" : "AVmPayload_requestAttestation"
+  },
+  {
+   "name" : "AVmPayload_requestAttestationForTesting"
+  },
+  {
+   "name" : "AVmPayload_runVsockRpcServer"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
