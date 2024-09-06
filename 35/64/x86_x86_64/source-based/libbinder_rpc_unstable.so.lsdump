@@ -1,0 +1,169 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  }
+ ],
+ "elf_functions" : [],
+ "elf_objects" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ARpcSession_FileDescriptorTransportMode::None"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ARpcSession_FileDescriptorTransportMode::Unix"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ARpcSession_FileDescriptorTransportMode::Trusty"
+    }
+   ],
+   "linker_set_key" : "_ZTI39ARpcSession_FileDescriptorTransportMode",
+   "name" : "ARpcSession_FileDescriptorTransportMode",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp",
+   "underlying_type" : "_ZTIi"
+  }
+ ],
+ "function_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFiPvE",
+   "name" : "int (void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
+  }
+ ],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP10ARpcServer",
+   "name" : "ARpcServer *",
+   "referenced_type" : "_ZTI10ARpcServer",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP11ARpcSession",
+   "name" : "ARpcSession *",
+   "referenced_type" : "_ZTI11ARpcSession",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP8AIBinder",
+   "name" : "AIBinder *",
+   "referenced_type" : "_ZTI8AIBinder",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFiPvE",
+   "name" : "int (*)(void *)",
+   "referenced_type" : "_ZTIFiPvE",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK39ARpcSession_FileDescriptorTransportMode",
+   "name" : "const ARpcSession_FileDescriptorTransportMode *",
+   "referenced_type" : "_ZTIK39ARpcSession_FileDescriptorTransportMode",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "_ZTIv",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK39ARpcSession_FileDescriptorTransportMode",
+   "name" : "const ARpcSession_FileDescriptorTransportMode",
+   "referenced_type" : "_ZTI39ARpcSession_FileDescriptorTransportMode",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
+  }
+ ],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
