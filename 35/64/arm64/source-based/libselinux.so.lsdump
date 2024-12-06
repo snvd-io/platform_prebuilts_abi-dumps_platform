@@ -177,6 +177,9 @@
    "name" : "selinux_android_setcontext"
   },
   {
+   "name" : "selinux_android_setcontext2"
+  },
+  {
    "name" : "selinux_android_vendor_service_context_handle"
   },
   {
@@ -909,6 +912,30 @@
    "source_file" : "external/selinux/libselinux/include/selinux/android.h"
   },
   {
+   "function_name" : "selinux_android_setcontext2",
+   "linker_set_key" : "selinux_android_setcontext2",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIKm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "external/selinux/libselinux/include/selinux/android.h"
+  },
+  {
    "function_name" : "selinux_android_vendor_service_context_handle",
    "linker_set_key" : "selinux_android_vendor_service_context_handle",
    "return_type" : "_ZTIP14selabel_handle",
@@ -1139,14 +1166,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIP11selinux_opt",
-   "name" : "selinux_opt *",
-   "referenced_type" : "_ZTI11selinux_opt",
-   "size" : 8,
-   "source_file" : "external/selinux/libselinux/include/selinux/avc.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIP13avc_entry_ref",
    "name" : "avc_entry_ref *",
    "referenced_type" : "_ZTI13avc_entry_ref",
@@ -1168,14 +1187,6 @@
    "referenced_type" : "_ZTI15avc_cache_stats",
    "size" : 8,
    "source_file" : "external/selinux/libselinux/include/selinux/avc.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIP22security_class_mapping",
-   "name" : "security_class_mapping *",
-   "referenced_type" : "_ZTI22security_class_mapping",
-   "size" : 8,
-   "source_file" : "external/selinux/libselinux/include/selinux/selinux.h"
   },
   {
    "alignment" : 8,
@@ -1303,7 +1314,7 @@
    "name" : "const selinux_opt *",
    "referenced_type" : "_ZTIK11selinux_opt",
    "size" : 8,
-   "source_file" : "external/selinux/libselinux/include/selinux/label.h"
+   "source_file" : "external/selinux/libselinux/include/selinux/avc.h"
   },
   {
    "alignment" : 8,
@@ -1311,7 +1322,7 @@
    "name" : "const selabel_handle *",
    "referenced_type" : "_ZTIK14selabel_handle",
    "size" : 8,
-   "source_file" : "external/selinux/libselinux/include/selinux/android.h"
+   "source_file" : "external/selinux/libselinux/include/selinux/label.h"
   },
   {
    "alignment" : 8,
@@ -1344,6 +1355,14 @@
    "referenced_type" : "_ZTIK19avc_thread_callback",
    "size" : 8,
    "source_file" : "external/selinux/libselinux/include/selinux/avc.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK22security_class_mapping",
+   "name" : "const security_class_mapping *",
+   "referenced_type" : "_ZTIK22security_class_mapping",
+   "size" : 8,
+   "source_file" : "external/selinux/libselinux/include/selinux/selinux.h"
   },
   {
    "alignment" : 8,
@@ -1459,7 +1478,7 @@
    "name" : "const selinux_opt",
    "referenced_type" : "_ZTI11selinux_opt",
    "size" : 16,
-   "source_file" : "external/selinux/libselinux/include/selinux/label.h"
+   "source_file" : "external/selinux/libselinux/include/selinux/avc.h"
   },
   {
    "alignment" : 8,
@@ -1468,7 +1487,7 @@
    "name" : "const selabel_handle",
    "referenced_type" : "_ZTI14selabel_handle",
    "size" : 104,
-   "source_file" : "external/selinux/libselinux/include/selinux/android.h"
+   "source_file" : "external/selinux/libselinux/include/selinux/label.h"
   },
   {
    "alignment" : 8,
@@ -1507,6 +1526,15 @@
    "source_file" : "external/selinux/libselinux/include/selinux/avc.h"
   },
   {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK22security_class_mapping",
+   "name" : "const security_class_mapping",
+   "referenced_type" : "_ZTI22security_class_mapping",
+   "size" : 272,
+   "source_file" : "external/selinux/libselinux/include/selinux/selinux.h"
+  },
+  {
    "alignment" : 1,
    "is_const" : true,
    "linker_set_key" : "_ZTIKc",
@@ -1514,6 +1542,15 @@
    "referenced_type" : "_ZTIc",
    "size" : 1,
    "source_file" : "external/selinux/libselinux/include/selinux/selinux.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKm",
+   "name" : "const unsigned long",
+   "referenced_type" : "_ZTIm",
+   "size" : 8,
+   "source_file" : "external/selinux/libselinux/include/selinux/android.h"
   },
   {
    "is_const" : true,
